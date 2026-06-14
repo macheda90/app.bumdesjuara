@@ -1,0 +1,18 @@
+{
+  "/api/auth/me/route": "app/api/auth/me/route.js",
+  "/api/tenant/akun/route": "app/api/tenant/akun/route.js",
+  "/api/tenant/arus-kas/route": "app/api/tenant/arus-kas/route.js",
+  "/api/tenant/audit-log/route": "app/api/tenant/audit-log/route.js",
+  "/api/tenant/export-pdf/route": "app/api/tenant/export-pdf/route.js",
+  "/api/tenant/export/route": "app/api/tenant/export/route.js",
+  "/api/tenant/laba-rugi/route": "app/api/tenant/laba-rugi/route.js",
+  "/api/tenant/neraca-saldo/route": "app/api/tenant/neraca-saldo/route.js",
+  "/api/tenant/neraca/route": "app/api/tenant/neraca/route.js",
+  "/api/tenant/pelanggan/route": "app/api/tenant/pelanggan/route.js",
+  "/api/tenant/pemasok/route": "app/api/tenant/pemasok/route.js",
+  "/api/tenant/persediaan/route": "app/api/tenant/persediaan/route.js",
+  "/api/tenant/pinjaman/route": "app/api/tenant/pinjaman/route.js",
+  "/api/tenant/route": "app/api/tenant/route.js",
+  "/api/tenant/simpanan/route": "app/api/tenant/simpanan/route.js",
+  "/page": "app/page.js"
+}

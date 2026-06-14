@@ -1,0 +1,296 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// ==================== CENTRAL (SHARED) TABLES ====================
+
+model CentralUser {
+  id           String   @id @default(cuid())
+  username     String   @unique
+  passwordHash String
+  role         String   @default("admin") // admin, superuser
+  jabatan      String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@map("central_users")
+}
+
+model Tenant {
+  id             String   @id @default(cuid())
+  tenantId       String   @unique // slug/subdomain identifier (e.g. "bumdes-maju")
+  namaPerusahaan String
+  email          String?
+  domain         String?  // custom domain if any
+  isActive       Boolean  @default(true)
+  adminUsername  String
+  adminPassword  String   // stored hashed
+  lastSeenAt     DateTime?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  // Relations
+  users           TenantUser[]
+  heartbeats      TenantHeartbeat[]
+  akun            Akun[]
+  jurnalUmum      JurnalUmum[]
+  penjualan       Penjualan[]
+  pembelian       Pembelian[]
+  simpanan        Simpanan[]
+  pinjaman        Pinjaman[]
+  persediaan      Persediaan[]
+  pelanggan       Pelanggan[]
+  pemasok         Pemasok[]
+  auditLogs       AuditLog[]
+  settings        TenantSettings?
+
+  @@map("tenants")
+}
+
+model TenantHeartbeat {
+  id        String   @id @default(cuid())
+  tenantId  String
+  domain    String?
+  lastSeen  DateTime?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  tenant    Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+
+  @@map("tenant_heartbeats")
+}
+
+// ==================== TENANT-SCOPED TABLES ====================
+
+model TenantUser {
+  id           String   @id @default(cuid())
+  tenantId     String
+  namaUser     String
+  passwordHash String
+  role         String   @default("admin") // admin, manajer, staff, kasir
+  jabatan      String?
+  idCabang     String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  tenant       Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+
+  @@unique([tenantId, namaUser])
+  @@map("tenant_users")
+}
+
+model Akun {
+  id          String   @id @default(cuid())
+  tenantId    String
+  kodeAkun    String
+  namaAkun    String
+  tipeAkun    String   // Kas & Bank, Piutang, Persediaan, Aset Tetap, Utang Usaha, Ekuitas, Pendapatan, HPP, Beban, etc.
+  kelompok    String?  // Neraca, Laba Rugi
+  saldoAwal   Float    @default(0)
+  isDefault   Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  tenant      Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+
+  @@unique([tenantId, kodeAkun])
+  @@map("akun")
+}
+
+model JurnalUmum {
+  id          String   @id @default(cuid())
+  tenantId    String
+  tanggal     DateTime
+  keterangan  String?
+  noBukti     String?
+  tipe        String   @default("umum") // umum, kas_masuk, kas_keluar, penjualan, pembelian, simpanan, pinjaman
+  idRef       String?  // reference to related transaction
+  isApproved  Boolean?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  tenant      Tenant        @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+  details     JurnalDetail[]
+
+  @@map("jurnal_umum")
+}
+
+model JurnalDetail {
+  id         String   @id @default(cuid())
+  jurnalId   String
+  kodeAkun   String
+  debit      Float    @default(0)
+  kredit     Float    @default(0)
+  keterangan String?
+
+  jurnal     JurnalUmum @relation(fields: [jurnalId], references: [id], onDelete: Cascade)
+
+  @@map("jurnal_detail")
+}
+
+model Penjualan {
+  id            String   @id @default(cuid())
+  tenantId      String
+  noFaktur      String
+  tanggalFaktur DateTime
+  pelangganId   String?
+  total         Float    @default(0)
+  keterangan    String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  tenant        Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+
+  @@map("penjualan")
+}
+
+model Pembelian {
+  id            String   @id @default(cuid())
+  tenantId      String
+  noFaktur      String
+  tanggalFaktur DateTime
+  pemasokId     String?
+  total         Float    @default(0)
+  keterangan    String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  tenant        Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+
+  @@map("pembelian")
+}
+
+model Simpanan {
+  id              String   @id @default(cuid())
+  tenantId        String
+  jenisSimpanan   String
+  namaAnggota     String?
+  jenisTransaksi  String   // setor, tarik
+  jumlah          Float    @default(0)
+  tanggal         DateTime
+  keterangan      String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  tenant          Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+
+  @@map("simpanan")
+}
+
+model Pinjaman {
+  id            String   @id @default(cuid())
+  tenantId      String
+  jenisPinjaman String
+  namaAnggota   String?
+  jumlahPokok   Float    @default(0)
+  sisaPokok     Float    @default(0)
+  bunga         Float    @default(0)
+  status        String   @default("active") // active, disbursed, lunas
+  tanggal       DateTime
+  keterangan    String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  tenant        Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+
+  @@map("pinjaman")
+}
+
+model Persediaan {
+  id          String   @id @default(cuid())
+  tenantId    String
+  namaBarang  String
+  satuan      String?
+  hargaBeli   Float    @default(0)
+  hargaJual   Float    @default(0)
+  stok        Float    @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  tenant      Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+
+  @@map("persediaan")
+}
+
+model Pelanggan {
+  id          String   @id @default(cuid())
+  tenantId    String
+  nama        String
+  alamat      String?
+  telepon     String?
+  email       String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  tenant      Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+
+  @@map("pelanggan")
+}
+
+model Pemasok {
+  id          String   @id @default(cuid())
+  tenantId    String
+  nama        String
+  alamat      String?
+  telepon     String?
+  email       String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  tenant      Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+
+  @@map("pemasok")
+}
+
+// Session model for auth
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String   // can be central user id or tenant user id
+  userType     String   // "central" or "tenant"
+  tenantId     String?  // only for tenant users
+  expires      DateTime
+  createdAt    DateTime @default(now())
+
+  @@map("sessions")
+}
+
+model AuditLog {
+  id          String   @id @default(cuid())
+  tenantId    String
+  userId      String?
+  username    String?
+  action      String   // CREATE, UPDATE, DELETE, LOGIN, LOGOUT, TOGGLE_STATUS
+  resource    String   // akun, jurnal, penjualan, pembelian, simpanan, pinjaman, persediaan, pelanggan, pemasok, tenant_user, settings
+  resourceId  String?
+  details     String?  // JSON string with additional info
+  ipAddress   String?
+  createdAt   DateTime @default(now())
+
+  tenant      Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+
+  @@map("audit_logs")
+}
+
+model TenantSettings {
+  id              String   @id @default(cuid())
+  tenantId        String   @unique
+  namaPerusahaan  String?
+  alamat          String?
+  telepon         String?
+  email           String?
+  npwp            String?
+  tahunFiskal     String   @default("2025")
+  logoUrl         String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  tenant          Tenant   @relation(fields: [tenantId], references: [id], onDelete: Cascade)
+
+  @@map("tenant_settings")
+}
