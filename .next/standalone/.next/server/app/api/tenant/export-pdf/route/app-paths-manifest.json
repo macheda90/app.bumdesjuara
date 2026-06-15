@@ -1,0 +1,3 @@
+{
+  "/api/tenant/export-pdf/route": "app/api/tenant/export-pdf/route.js"
+}
