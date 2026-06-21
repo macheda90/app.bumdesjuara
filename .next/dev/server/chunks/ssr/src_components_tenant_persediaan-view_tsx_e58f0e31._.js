@@ -750,7 +750,7 @@ function PersediaanView({ list, loading, search, setSearch, summary, showModal, 
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$tenant$2f$shared$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DarkInput"], {
                                     label: "Stok",
                                     type: "number",
-                                    value: form.stok || '',
+                                    value: form.stok.toString() || '',
                                     onChange: (e)=>setForm({
                                             ...form,
                                             stok: Number(e.target.value)
@@ -773,7 +773,7 @@ function PersediaanView({ list, loading, search, setSearch, summary, showModal, 
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$tenant$2f$shared$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DarkInput"], {
                                     label: "Harga Beli (Rp)",
                                     type: "number",
-                                    value: form.hargaBeli || '',
+                                    value: form.hargaBeli.toString() || '',
                                     onChange: (e)=>setForm({
                                             ...form,
                                             hargaBeli: Number(e.target.value)
@@ -787,7 +787,7 @@ function PersediaanView({ list, loading, search, setSearch, summary, showModal, 
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$tenant$2f$shared$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DarkInput"], {
                                     label: "Harga Jual (Rp)",
                                     type: "number",
-                                    value: form.hargaJual || '',
+                                    value: form.hargaJual.toString() || '',
                                     onChange: (e)=>setForm({
                                             ...form,
                                             hargaJual: Number(e.target.value)

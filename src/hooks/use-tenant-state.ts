@@ -644,6 +644,7 @@ export function useTenantState() {
     showJurnalModal,
     setShowJurnalModal,
     jurnalFormLoading,
+    setJurnalFormLoading,
     jurnalForm,
     setJurnalForm,
     jurnalDetails,

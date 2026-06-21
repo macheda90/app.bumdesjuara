@@ -1,7 +1,17 @@
 import { PrismaClient } from '@prisma/client'
+// bcrypt
 import bcrypt from 'bcryptjs'
+import 'dotenv/config' // 👈 Load environment variables
 
-const prisma = new PrismaClient()
+// Pass the URL explicitly via the 'datasources' option
+// Pass the URL explicitly via the 'datasources' option
+const prisma = new PrismaClient({
+  datasources: {
+    db: {                      // 'db' must match the datasource name in schema.prisma
+      url: process.env.DATABASE_URL,
+    },
+  },
+})
 
 // Hardcoded IDs matching existing database records
 const TENANT_1_ID = 'cmqdkfw050001rfz0unzzo7zg' // BUMDes Maju Jaya
@@ -213,164 +223,204 @@ async function main() {
   const jurnal1_1 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2025-07-15'), keterangan: 'Penjualan pupuk organik', noBukti: 'PJ-2025-001', tipe: 'penjualan', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_1.id, kodeAkun: '1-1000', debit: 8500000, kredit: 0, keterangan: 'Kas masuk' },
-    { jurnalId: jurnal1_1.id, kodeAkun: '3-1000', debit: 0, kredit: 8500000, keterangan: 'Pendapatan penjualan' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_1.id, kodeAkun: '1-1000', debit: 8500000, kredit: 0, keterangan: 'Kas masuk' },
+      { jurnalId: jurnal1_1.id, kodeAkun: '3-1000', debit: 0, kredit: 8500000, keterangan: 'Pendapatan penjualan' },
+    ]
+  })
 
   const jurnal1_2 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2025-07-10'), keterangan: 'Pembelian pupuk organik dari CV Sumber Makmur', noBukti: 'PB-2025-001', tipe: 'pembelian', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_2.id, kodeAkun: '4-1000', debit: 6000000, kredit: 0, keterangan: 'HPP' },
-    { jurnalId: jurnal1_2.id, kodeAkun: '1-1100', debit: 0, kredit: 6000000, keterangan: 'Bank keluar' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_2.id, kodeAkun: '4-1000', debit: 6000000, kredit: 0, keterangan: 'HPP' },
+      { jurnalId: jurnal1_2.id, kodeAkun: '1-1100', debit: 0, kredit: 6000000, keterangan: 'Bank keluar' },
+    ]
+  })
 
   const jurnal1_3 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2025-07-05'), keterangan: 'Setoran simpanan pokok Pak Hadi', noBukti: 'SIM-001', tipe: 'simpanan', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_3.id, kodeAkun: '1-1000', debit: 5000000, kredit: 0, keterangan: 'Kas masuk' },
-    { jurnalId: jurnal1_3.id, kodeAkun: '2-2000', debit: 0, kredit: 5000000, keterangan: 'Simpanan pokok' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_3.id, kodeAkun: '1-1000', debit: 5000000, kredit: 0, keterangan: 'Kas masuk' },
+      { jurnalId: jurnal1_3.id, kodeAkun: '2-2000', debit: 0, kredit: 5000000, keterangan: 'Simpanan pokok' },
+    ]
+  })
 
   const jurnal1_4 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2025-08-15'), keterangan: 'Pencairan pinjaman Pak Hadi', noBukti: 'PIN-001', tipe: 'pinjaman', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_4.id, kodeAkun: '1-2000', debit: 10000000, kredit: 0, keterangan: 'Piutang pinjaman' },
-    { jurnalId: jurnal1_4.id, kodeAkun: '1-1000', debit: 0, kredit: 10000000, keterangan: 'Kas keluar' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_4.id, kodeAkun: '1-2000', debit: 10000000, kredit: 0, keterangan: 'Piutang pinjaman' },
+      { jurnalId: jurnal1_4.id, kodeAkun: '1-1000', debit: 0, kredit: 10000000, keterangan: 'Kas keluar' },
+    ]
+  })
 
   const jurnal1_5 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2025-08-20'), keterangan: 'Penjualan hasil tani', noBukti: 'PJ-2025-002', tipe: 'penjualan', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_5.id, kodeAkun: '1-1100', debit: 12000000, kredit: 0, keterangan: 'Bank masuk' },
-    { jurnalId: jurnal1_5.id, kodeAkun: '3-1000', debit: 0, kredit: 12000000, keterangan: 'Pendapatan penjualan' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_5.id, kodeAkun: '1-1100', debit: 12000000, kredit: 0, keterangan: 'Bank masuk' },
+      { jurnalId: jurnal1_5.id, kodeAkun: '3-1000', debit: 0, kredit: 12000000, keterangan: 'Pendapatan penjualan' },
+    ]
+  })
 
   const jurnal1_6 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2025-09-30'), keterangan: 'Pembayaran gaji karyawan', noBukti: 'KK-2025-001', tipe: 'kas_keluar', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_6.id, kodeAkun: '5-1000', debit: 8000000, kredit: 0 },
-    { jurnalId: jurnal1_6.id, kodeAkun: '1-1000', debit: 0, kredit: 8000000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_6.id, kodeAkun: '5-1000', debit: 8000000, kredit: 0 },
+      { jurnalId: jurnal1_6.id, kodeAkun: '1-1000', debit: 0, kredit: 8000000 },
+    ]
+  })
 
   const jurnal1_7 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2025-10-05'), keterangan: 'Penjualan pupuk dan bibit', noBukti: 'PJ-2025-004', tipe: 'penjualan', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_7.id, kodeAkun: '1-2000', debit: 15000000, kredit: 0 },
-    { jurnalId: jurnal1_7.id, kodeAkun: '3-1000', debit: 0, kredit: 15000000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_7.id, kodeAkun: '1-2000', debit: 15000000, kredit: 0 },
+      { jurnalId: jurnal1_7.id, kodeAkun: '3-1000', debit: 0, kredit: 15000000 },
+    ]
+  })
 
   const jurnal1_8 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2025-11-28'), keterangan: 'Pembayaran listrik dan air', noBukti: 'KK-2025-002', tipe: 'kas_keluar', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_8.id, kodeAkun: '5-1100', debit: 2500000, kredit: 0 },
-    { jurnalId: jurnal1_8.id, kodeAkun: '1-1000', debit: 0, kredit: 2500000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_8.id, kodeAkun: '5-1100', debit: 2500000, kredit: 0 },
+      { jurnalId: jurnal1_8.id, kodeAkun: '1-1000', debit: 0, kredit: 2500000 },
+    ]
+  })
 
   const jurnal1_9 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2026-01-15'), keterangan: 'Penjualan pupuk organik', noBukti: 'PJ-2026-001', tipe: 'penjualan', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_9.id, kodeAkun: '1-1000', debit: 15000000, kredit: 0 },
-    { jurnalId: jurnal1_9.id, kodeAkun: '3-1000', debit: 0, kredit: 15000000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_9.id, kodeAkun: '1-1000', debit: 15000000, kredit: 0 },
+      { jurnalId: jurnal1_9.id, kodeAkun: '3-1000', debit: 0, kredit: 15000000 },
+    ]
+  })
 
   const jurnal1_10 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2026-02-10'), keterangan: 'Penjualan hasil tani', noBukti: 'PJ-2026-002', tipe: 'penjualan', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_10.id, kodeAkun: '1-1100', debit: 22000000, kredit: 0 },
-    { jurnalId: jurnal1_10.id, kodeAkun: '3-1000', debit: 0, kredit: 22000000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_10.id, kodeAkun: '1-1100', debit: 22000000, kredit: 0 },
+      { jurnalId: jurnal1_10.id, kodeAkun: '3-1000', debit: 0, kredit: 22000000 },
+    ]
+  })
 
   const jurnal1_11 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2026-03-05'), keterangan: 'Penjualan bibit tanaman', noBukti: 'PJ-2026-003', tipe: 'penjualan', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_11.id, kodeAkun: '1-2000', debit: 18500000, kredit: 0 },
-    { jurnalId: jurnal1_11.id, kodeAkun: '3-1000', debit: 0, kredit: 18500000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_11.id, kodeAkun: '1-2000', debit: 18500000, kredit: 0 },
+      { jurnalId: jurnal1_11.id, kodeAkun: '3-1000', debit: 0, kredit: 18500000 },
+    ]
+  })
 
   const jurnal1_12 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2026-04-12'), keterangan: 'Penjualan pupuk dan bibit', noBukti: 'PJ-2026-004', tipe: 'penjualan', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_12.id, kodeAkun: '1-1100', debit: 25000000, kredit: 0 },
-    { jurnalId: jurnal1_12.id, kodeAkun: '3-1000', debit: 0, kredit: 25000000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_12.id, kodeAkun: '1-1100', debit: 25000000, kredit: 0 },
+      { jurnalId: jurnal1_12.id, kodeAkun: '3-1000', debit: 0, kredit: 25000000 },
+    ]
+  })
 
   // ===== PENDING JOURNALS for tenant1 (isApproved: null) =====
   const jurnal1_p1 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2026-07-01'), keterangan: 'Pembelian mesin pengolah kompos', noBukti: 'PB-2026-007', tipe: 'pembelian', isApproved: null },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_p1.id, kodeAkun: '1-4100', debit: 35000000, kredit: 0, keterangan: 'Mesin pengolah kompos' },
-    { jurnalId: jurnal1_p1.id, kodeAkun: '2-1100', debit: 0, kredit: 35000000, keterangan: 'Utang bank' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_p1.id, kodeAkun: '1-4100', debit: 35000000, kredit: 0, keterangan: 'Mesin pengolah kompos' },
+      { jurnalId: jurnal1_p1.id, kodeAkun: '2-1100', debit: 0, kredit: 35000000, keterangan: 'Utang bank' },
+    ]
+  })
 
   const jurnal1_p2 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2026-07-05'), keterangan: 'Penjualan pupuk organik ke PT Hijau Lestari', noBukti: 'PJ-2026-007', tipe: 'penjualan', isApproved: null },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_p2.id, kodeAkun: '1-2000', debit: 42000000, kredit: 0, keterangan: 'Piutang usaha' },
-    { jurnalId: jurnal1_p2.id, kodeAkun: '3-1000', debit: 0, kredit: 42000000, keterangan: 'Pendapatan penjualan' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_p2.id, kodeAkun: '1-2000', debit: 42000000, kredit: 0, keterangan: 'Piutang usaha' },
+      { jurnalId: jurnal1_p2.id, kodeAkun: '3-1000', debit: 0, kredit: 42000000, keterangan: 'Pendapatan penjualan' },
+    ]
+  })
 
   const jurnal1_p3 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2026-07-10'), keterangan: 'Setoran simpanan wajib bulan Juli', noBukti: 'SIM-2026-007', tipe: 'simpanan', isApproved: null },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_p3.id, kodeAkun: '1-1000', debit: 6000000, kredit: 0, keterangan: 'Kas masuk' },
-    { jurnalId: jurnal1_p3.id, kodeAkun: '2-2100', debit: 0, kredit: 6000000, keterangan: 'Simpanan wajib' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_p3.id, kodeAkun: '1-1000', debit: 6000000, kredit: 0, keterangan: 'Kas masuk' },
+      { jurnalId: jurnal1_p3.id, kodeAkun: '2-2100', debit: 0, kredit: 6000000, keterangan: 'Simpanan wajib' },
+    ]
+  })
 
   const jurnal1_p4 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2026-07-12'), keterangan: 'Pembelian bibit unggul dari PT Agro Nusantara', noBukti: 'PB-2026-008', tipe: 'pembelian', isApproved: null },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_p4.id, kodeAkun: '4-1000', debit: 22000000, kredit: 0, keterangan: 'HPP bibit' },
-    { jurnalId: jurnal1_p4.id, kodeAkun: '2-1000', debit: 0, kredit: 22000000, keterangan: 'Utang usaha' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_p4.id, kodeAkun: '4-1000', debit: 22000000, kredit: 0, keterangan: 'HPP bibit' },
+      { jurnalId: jurnal1_p4.id, kodeAkun: '2-1000', debit: 0, kredit: 22000000, keterangan: 'Utang usaha' },
+    ]
+  })
 
   const jurnal1_p5 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2026-07-15'), keterangan: 'Pengeluaran biaya renovasi gudang', noBukti: 'KK-2026-003', tipe: 'kas_keluar', isApproved: null },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_p5.id, kodeAkun: '5-1200', debit: 15000000, kredit: 0, keterangan: 'Beban renovasi' },
-    { jurnalId: jurnal1_p5.id, kodeAkun: '1-1100', debit: 0, kredit: 15000000, keterangan: 'Bank keluar' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_p5.id, kodeAkun: '5-1200', debit: 15000000, kredit: 0, keterangan: 'Beban renovasi' },
+      { jurnalId: jurnal1_p5.id, kodeAkun: '1-1100', debit: 0, kredit: 15000000, keterangan: 'Bank keluar' },
+    ]
+  })
 
   const jurnal1_p6 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2026-07-18'), keterangan: 'Pemasukan pendapatan jasa konsultasi pertanian', noBukti: 'KM-2026-001', tipe: 'kas_masuk', isApproved: null },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_p6.id, kodeAkun: '1-1000', debit: 8000000, kredit: 0, keterangan: 'Kas masuk' },
-    { jurnalId: jurnal1_p6.id, kodeAkun: '3-1100', debit: 0, kredit: 8000000, keterangan: 'Pendapatan jasa' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_p6.id, kodeAkun: '1-1000', debit: 8000000, kredit: 0, keterangan: 'Kas masuk' },
+      { jurnalId: jurnal1_p6.id, kodeAkun: '3-1100', debit: 0, kredit: 8000000, keterangan: 'Pendapatan jasa' },
+    ]
+  })
 
   // ===== REJECTED JOURNALS for tenant1 (isApproved: false) =====
   const jurnal1_r1 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2026-06-28'), keterangan: 'Klaim pengeluaran pribadi direksi', noBukti: 'KK-2026-REJ-001', tipe: 'kas_keluar', isApproved: false },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_r1.id, kodeAkun: '5-1300', debit: 5000000, kredit: 0, keterangan: 'Klaim pribadi - ditolak' },
-    { jurnalId: jurnal1_r1.id, kodeAkun: '1-1000', debit: 0, kredit: 5000000, keterangan: 'Kas keluar' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_r1.id, kodeAkun: '5-1300', debit: 5000000, kredit: 0, keterangan: 'Klaim pribadi - ditolak' },
+      { jurnalId: jurnal1_r1.id, kodeAkun: '1-1000', debit: 0, kredit: 5000000, keterangan: 'Kas keluar' },
+    ]
+  })
 
   const jurnal1_r2 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant1.id, tanggal: new Date('2026-07-02'), keterangan: 'Pembelian tanpa dokumen pendukung', noBukti: 'PB-2026-REJ-001', tipe: 'pembelian', isApproved: false },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal1_r2.id, kodeAkun: '4-1000', debit: 18000000, kredit: 0, keterangan: 'Tanpa bukti - ditolak' },
-    { jurnalId: jurnal1_r2.id, kodeAkun: '1-1100', debit: 0, kredit: 18000000, keterangan: 'Bank keluar' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal1_r2.id, kodeAkun: '4-1000', debit: 18000000, kredit: 0, keterangan: 'Tanpa bukti - ditolak' },
+      { jurnalId: jurnal1_r2.id, kodeAkun: '1-1100', debit: 0, kredit: 18000000, keterangan: 'Bank keluar' },
+    ]
+  })
 
   console.log('  ✅ Created jurnal & details for BUMDes Maju Jaya (approved: 12, pending: 6, rejected: 2)')
 
@@ -549,140 +599,174 @@ async function main() {
   const jurnal2_1 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2025-07-20'), keterangan: 'Penjualan sembako', noBukti: 'PJ-2025-001', tipe: 'penjualan', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_1.id, kodeAkun: '1-1000', debit: 8000000, kredit: 0 },
-    { jurnalId: jurnal2_1.id, kodeAkun: '3-1000', debit: 0, kredit: 8000000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_1.id, kodeAkun: '1-1000', debit: 8000000, kredit: 0 },
+      { jurnalId: jurnal2_1.id, kodeAkun: '3-1000', debit: 0, kredit: 8000000 },
+    ]
+  })
 
   const jurnal2_2 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2025-07-25'), keterangan: 'Pembelian sembako', noBukti: 'PB-2025-001', tipe: 'pembelian', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_2.id, kodeAkun: '4-1000', debit: 5500000, kredit: 0 },
-    { jurnalId: jurnal2_2.id, kodeAkun: '1-1100', debit: 0, kredit: 5500000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_2.id, kodeAkun: '4-1000', debit: 5500000, kredit: 0 },
+      { jurnalId: jurnal2_2.id, kodeAkun: '1-1100', debit: 0, kredit: 5500000 },
+    ]
+  })
 
   const jurnal2_3 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2025-08-18'), keterangan: 'Penjualan kebutuhan rumah tangga', noBukti: 'PJ-2025-002', tipe: 'penjualan', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_3.id, kodeAkun: '1-1100', debit: 11000000, kredit: 0 },
-    { jurnalId: jurnal2_3.id, kodeAkun: '3-1000', debit: 0, kredit: 11000000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_3.id, kodeAkun: '1-1100', debit: 11000000, kredit: 0 },
+      { jurnalId: jurnal2_3.id, kodeAkun: '3-1000', debit: 0, kredit: 11000000 },
+    ]
+  })
 
   const jurnal2_4 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2025-07-10'), keterangan: 'Setoran simpanan pokok', noBukti: 'SIM-001', tipe: 'simpanan', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_4.id, kodeAkun: '1-1000', debit: 3000000, kredit: 0 },
-    { jurnalId: jurnal2_4.id, kodeAkun: '2-2000', debit: 0, kredit: 3000000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_4.id, kodeAkun: '1-1000', debit: 3000000, kredit: 0 },
+      { jurnalId: jurnal2_4.id, kodeAkun: '2-2000', debit: 0, kredit: 3000000 },
+    ]
+  })
 
   const jurnal2_5 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2025-08-01'), keterangan: 'Pencairan pinjaman Ibu Ratna', noBukti: 'PIN-001', tipe: 'pinjaman', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_5.id, kodeAkun: '1-2000', debit: 8000000, kredit: 0 },
-    { jurnalId: jurnal2_5.id, kodeAkun: '1-1000', debit: 0, kredit: 8000000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_5.id, kodeAkun: '1-2000', debit: 8000000, kredit: 0 },
+      { jurnalId: jurnal2_5.id, kodeAkun: '1-1000', debit: 0, kredit: 8000000 },
+    ]
+  })
 
   const jurnal2_6 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2025-09-30'), keterangan: 'Pembayaran gaji karyawan', noBukti: 'KK-2025-001', tipe: 'kas_keluar', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_6.id, kodeAkun: '5-1100', debit: 6000000, kredit: 0 },
-    { jurnalId: jurnal2_6.id, kodeAkun: '1-1000', debit: 0, kredit: 6000000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_6.id, kodeAkun: '5-1100', debit: 6000000, kredit: 0 },
+      { jurnalId: jurnal2_6.id, kodeAkun: '1-1000', debit: 0, kredit: 6000000 },
+    ]
+  })
 
   const jurnal2_7 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2025-12-18'), keterangan: 'Penjualan natal & tahun baru', noBukti: 'PJ-2025-006', tipe: 'penjualan', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_7.id, kodeAkun: '1-1100', debit: 20000000, kredit: 0 },
-    { jurnalId: jurnal2_7.id, kodeAkun: '3-1000', debit: 0, kredit: 20000000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_7.id, kodeAkun: '1-1100', debit: 20000000, kredit: 0 },
+      { jurnalId: jurnal2_7.id, kodeAkun: '3-1000', debit: 0, kredit: 20000000 },
+    ]
+  })
 
   const jurnal2_8 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2026-01-20'), keterangan: 'Penjualan sembako', noBukti: 'PJ-2026-001', tipe: 'penjualan', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_8.id, kodeAkun: '1-1000', debit: 12000000, kredit: 0 },
-    { jurnalId: jurnal2_8.id, kodeAkun: '3-1000', debit: 0, kredit: 12000000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_8.id, kodeAkun: '1-1000', debit: 12000000, kredit: 0 },
+      { jurnalId: jurnal2_8.id, kodeAkun: '3-1000', debit: 0, kredit: 12000000 },
+    ]
+  })
 
   const jurnal2_9 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2026-02-15'), keterangan: 'Penjualan kebutuhan rumah tangga', noBukti: 'PJ-2026-002', tipe: 'penjualan', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_9.id, kodeAkun: '1-1100', debit: 18000000, kredit: 0 },
-    { jurnalId: jurnal2_9.id, kodeAkun: '3-1000', debit: 0, kredit: 18000000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_9.id, kodeAkun: '1-1100', debit: 18000000, kredit: 0 },
+      { jurnalId: jurnal2_9.id, kodeAkun: '3-1000', debit: 0, kredit: 18000000 },
+    ]
+  })
 
   const jurnal2_10 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2026-03-10'), keterangan: 'Penjualan toko', noBukti: 'PJ-2026-003', tipe: 'penjualan', isApproved: true },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_10.id, kodeAkun: '1-2000', debit: 15000000, kredit: 0 },
-    { jurnalId: jurnal2_10.id, kodeAkun: '3-1000', debit: 0, kredit: 15000000 },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_10.id, kodeAkun: '1-2000', debit: 15000000, kredit: 0 },
+      { jurnalId: jurnal2_10.id, kodeAkun: '3-1000', debit: 0, kredit: 15000000 },
+    ]
+  })
 
   // ===== PENDING JOURNALS for tenant2 (isApproved: null) =====
   const jurnal2_p1 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2026-07-01'), keterangan: 'Pembelian stok toko besar dari CV Sembako Jaya', noBukti: 'PB-2026-007', tipe: 'pembelian', isApproved: null },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_p1.id, kodeAkun: '4-1000', debit: 28000000, kredit: 0, keterangan: 'HPP stok besar' },
-    { jurnalId: jurnal2_p1.id, kodeAkun: '2-1000', debit: 0, kredit: 28000000, keterangan: 'Utang usaha' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_p1.id, kodeAkun: '4-1000', debit: 28000000, kredit: 0, keterangan: 'HPP stok besar' },
+      { jurnalId: jurnal2_p1.id, kodeAkun: '2-1000', debit: 0, kredit: 28000000, keterangan: 'Utang usaha' },
+    ]
+  })
 
   const jurnal2_p2 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2026-07-03'), keterangan: 'Penjualan grosir ke warung sekitar', noBukti: 'PJ-2026-007', tipe: 'penjualan', isApproved: null },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_p2.id, kodeAkun: '1-2000', debit: 35000000, kredit: 0, keterangan: 'Piutang usaha' },
-    { jurnalId: jurnal2_p2.id, kodeAkun: '3-1000', debit: 0, kredit: 35000000, keterangan: 'Pendapatan toko' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_p2.id, kodeAkun: '1-2000', debit: 35000000, kredit: 0, keterangan: 'Piutang usaha' },
+      { jurnalId: jurnal2_p2.id, kodeAkun: '3-1000', debit: 0, kredit: 35000000, keterangan: 'Pendapatan toko' },
+    ]
+  })
 
   const jurnal2_p3 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2026-07-05'), keterangan: 'Setoran simpanan wajib bulan Juli', noBukti: 'SIM-2026-007', tipe: 'simpanan', isApproved: null },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_p3.id, kodeAkun: '1-1000', debit: 4500000, kredit: 0, keterangan: 'Kas masuk' },
-    { jurnalId: jurnal2_p3.id, kodeAkun: '2-2100', debit: 0, kredit: 4500000, keterangan: 'Simpanan wajib' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_p3.id, kodeAkun: '1-1000', debit: 4500000, kredit: 0, keterangan: 'Kas masuk' },
+      { jurnalId: jurnal2_p3.id, kodeAkun: '2-2100', debit: 0, kredit: 4500000, keterangan: 'Simpanan wajib' },
+    ]
+  })
 
   const jurnal2_p4 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2026-07-08'), keterangan: 'Pembelian AC untuk toko', noBukti: 'PB-2026-008', tipe: 'pembelian', isApproved: null },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_p4.id, kodeAkun: '1-4000', debit: 12000000, kredit: 0, keterangan: 'Aset tetap - AC' },
-    { jurnalId: jurnal2_p4.id, kodeAkun: '1-1100', debit: 0, kredit: 12000000, keterangan: 'Bank keluar' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_p4.id, kodeAkun: '1-4000', debit: 12000000, kredit: 0, keterangan: 'Aset tetap - AC' },
+      { jurnalId: jurnal2_p4.id, kodeAkun: '1-1100', debit: 0, kredit: 12000000, keterangan: 'Bank keluar' },
+    ]
+  })
 
   const jurnal2_p5 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2026-07-10'), keterangan: 'Pendapatan bunga pinjaman anggota', noBukti: 'KM-2026-001', tipe: 'kas_masuk', isApproved: null },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_p5.id, kodeAkun: '1-1000', debit: 5000000, kredit: 0, keterangan: 'Kas masuk' },
-    { jurnalId: jurnal2_p5.id, kodeAkun: '3-1200', debit: 0, kredit: 5000000, keterangan: 'Pendapatan bunga pinjaman' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_p5.id, kodeAkun: '1-1000', debit: 5000000, kredit: 0, keterangan: 'Kas masuk' },
+      { jurnalId: jurnal2_p5.id, kodeAkun: '3-1200', debit: 0, kredit: 5000000, keterangan: 'Pendapatan bunga pinjaman' },
+    ]
+  })
 
   // ===== REJECTED JOURNALS for tenant2 (isApproved: false) =====
   const jurnal2_r1 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2026-06-25'), keterangan: 'Pengeluaran tanpa otorisasi - makan siang rapat', noBukti: 'KK-2026-REJ-001', tipe: 'kas_keluar', isApproved: false },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_r1.id, kodeAkun: '5-1000', debit: 3500000, kredit: 0, keterangan: 'Beban tidak sah - ditolak' },
-    { jurnalId: jurnal2_r1.id, kodeAkun: '1-1000', debit: 0, kredit: 3500000, keterangan: 'Kas keluar' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_r1.id, kodeAkun: '5-1000', debit: 3500000, kredit: 0, keterangan: 'Beban tidak sah - ditolak' },
+      { jurnalId: jurnal2_r1.id, kodeAkun: '1-1000', debit: 0, kredit: 3500000, keterangan: 'Kas keluar' },
+    ]
+  })
 
   const jurnal2_r2 = await prisma.jurnalUmum.create({
     data: { tenantId: tenant2.id, tanggal: new Date('2026-07-01'), keterangan: 'Pembelian tanpa PO - ditolak manajer', noBukti: 'PB-2026-REJ-001', tipe: 'pembelian', isApproved: false },
   })
-  await prisma.jurnalDetail.createMany({ data: [
-    { jurnalId: jurnal2_r2.id, kodeAkun: '4-1000', debit: 15000000, kredit: 0, keterangan: 'Tanpa PO - ditolak' },
-    { jurnalId: jurnal2_r2.id, kodeAkun: '1-1100', debit: 0, kredit: 15000000, keterangan: 'Bank keluar' },
-  ]})
+  await prisma.jurnalDetail.createMany({
+    data: [
+      { jurnalId: jurnal2_r2.id, kodeAkun: '4-1000', debit: 15000000, kredit: 0, keterangan: 'Tanpa PO - ditolak' },
+      { jurnalId: jurnal2_r2.id, kodeAkun: '1-1100', debit: 0, kredit: 15000000, keterangan: 'Bank keluar' },
+    ]
+  })
 
   console.log('  ✅ Created jurnal & details for Koperasi Sejahtera (approved: 10, pending: 5, rejected: 2)')
 

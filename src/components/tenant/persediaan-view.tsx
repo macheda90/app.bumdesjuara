@@ -193,11 +193,11 @@ export function PersediaanView({
           <DarkInput label="Nama Barang" type="text" value={form.namaBarang} onChange={(e) => setForm({ ...form, namaBarang: e.target.value })} placeholder="Nama barang..." />
           <div className="grid grid-cols-2 gap-4">
             <DarkInput label="Satuan" type="text" value={form.satuan} onChange={(e) => setForm({ ...form, satuan: e.target.value })} placeholder="pcs, kg, ltr..." />
-            <DarkInput label="Stok" type="number" value={form.stok || ''} onChange={(e) => setForm({ ...form, stok: Number(e.target.value) })} placeholder="0" />
+            <DarkInput label="Stok" type="number" value={form.stok.toString() || ''} onChange={(e) => setForm({ ...form, stok: Number(e.target.value) })} placeholder="0" />
           </div>
           <div className="grid grid-cols-2 gap-4">
-            <DarkInput label="Harga Beli (Rp)" type="number" value={form.hargaBeli || ''} onChange={(e) => setForm({ ...form, hargaBeli: Number(e.target.value) })} placeholder="0" />
-            <DarkInput label="Harga Jual (Rp)" type="number" value={form.hargaJual || ''} onChange={(e) => setForm({ ...form, hargaJual: Number(e.target.value) })} placeholder="0" />
+            <DarkInput label="Harga Beli (Rp)" type="number" value={form.hargaBeli.toString() || ''} onChange={(e) => setForm({ ...form, hargaBeli: Number(e.target.value) })} placeholder="0" />
+            <DarkInput label="Harga Jual (Rp)" type="number" value={form.hargaJual.toString() || ''} onChange={(e) => setForm({ ...form, hargaJual: Number(e.target.value) })} placeholder="0" />
           </div>
           <div className="flex items-center justify-end gap-3 pt-2">
             <button onClick={() => setShowModal(false)} className="rounded-lg border border-[var(--border-color)] px-4 py-2 text-sm text-[var(--text-secondary)] hover:bg-[var(--bg-tertiary)]">Batal</button>

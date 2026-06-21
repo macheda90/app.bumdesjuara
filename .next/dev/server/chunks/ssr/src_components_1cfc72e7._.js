@@ -581,7 +581,7 @@ function Landing({ onNavigate }) {
                                                         lineNumber: 242,
                                                         columnNumber: 17
                                                     }, this),
-                                                    "Gratis untuk BUMDes"
+                                                    "Request Demo"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/landing.tsx",
@@ -2450,7 +2450,7 @@ function Landing({ onNavigate }) {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xs text-(--text-secondary)",
-                                    children: "© 2025 BumdesJuara. Platform Akuntansi Multi-Tenant"
+                                    children: "© 2025 BumdesJuara by reinKarnasi. Platform Akuntansi Multi-Tenant"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/landing.tsx",
                                     lineNumber: 851,
@@ -3374,265 +3374,6 @@ function Login() {
                         }, void 0, false, {
                             fileName: "[project]/src/components/login.tsx",
                             lineNumber: 218,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "mt-6 rounded-xl border border-[#10b981]/10 bg-gradient-to-b from-[#10b981]/[0.03] to-transparent p-4",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mb-3 flex items-center gap-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__["Shield"], {
-                                            className: "h-3.5 w-3.5 text-[#10b981]/60"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/login.tsx",
-                                            lineNumber: 343,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-xs font-semibold text-[var(--text-secondary)]",
-                                            children: "Demo Credentials"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/components/login.tsx",
-                                            lineNumber: 344,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/login.tsx",
-                                    lineNumber: 342,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "space-y-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex items-start gap-2 rounded-lg border border-[var(--border-color)] bg-[var(--bg-tertiary)] px-3 py-2.5 transition-colors hover:bg-[var(--bg-secondary)]",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded bg-gradient-to-br from-[#10b981]/20 to-[#10b981]/5 text-[10px] font-bold text-[#10b981]",
-                                                    children: "C"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/login.tsx",
-                                                    lineNumber: 348,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "text-xs text-[var(--text-secondary)]",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "font-medium text-[var(--text-primary)]",
-                                                            children: "Central Admin"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/login.tsx",
-                                                            lineNumber: 350,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "mt-0.5 flex items-center gap-1.5",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
-                                                                    className: "rounded bg-[var(--accent-light)] px-1.5 py-0.5 text-[10px] font-mono text-[#10b981]",
-                                                                    children: "admin"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/login.tsx",
-                                                                    lineNumber: 352,
-                                                                    columnNumber: 21
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "text-[var(--text-muted)]",
-                                                                    children: "/"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/login.tsx",
-                                                                    lineNumber: 353,
-                                                                    columnNumber: 21
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
-                                                                    className: "rounded bg-[var(--accent-light)] px-1.5 py-0.5 text-[10px] font-mono text-[#10b981]",
-                                                                    children: "admin"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/login.tsx",
-                                                                    lineNumber: 354,
-                                                                    columnNumber: 21
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/components/login.tsx",
-                                                            lineNumber: 351,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/login.tsx",
-                                                    lineNumber: 349,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/login.tsx",
-                                            lineNumber: 347,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex items-start gap-2 rounded-lg border border-[var(--border-color)] bg-[var(--bg-tertiary)] px-3 py-2.5 transition-colors hover:bg-[var(--bg-secondary)]",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded bg-gradient-to-br from-[#10b981]/20 to-[#10b981]/5 text-[10px] font-bold text-[#10b981]",
-                                                    children: "T1"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/login.tsx",
-                                                    lineNumber: 359,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "text-xs text-[var(--text-secondary)]",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "font-medium text-[var(--text-primary)]",
-                                                            children: "Tenant 1"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/login.tsx",
-                                                            lineNumber: 361,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "mt-0.5 flex items-center gap-1.5",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
-                                                                    className: "rounded bg-[var(--accent-light)] px-1.5 py-0.5 text-[10px] font-mono text-[#10b981]",
-                                                                    children: "admin"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/login.tsx",
-                                                                    lineNumber: 363,
-                                                                    columnNumber: 21
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "text-[var(--text-muted)]",
-                                                                    children: "/"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/login.tsx",
-                                                                    lineNumber: 364,
-                                                                    columnNumber: 21
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
-                                                                    className: "rounded bg-[var(--accent-light)] px-1.5 py-0.5 text-[10px] font-mono text-[#10b981]",
-                                                                    children: "admin12345"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/login.tsx",
-                                                                    lineNumber: 365,
-                                                                    columnNumber: 21
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/components/login.tsx",
-                                                            lineNumber: 362,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "mt-0.5 text-[10px] text-[var(--text-muted)]",
-                                                            children: "ID: bumdes-maju"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/login.tsx",
-                                                            lineNumber: 367,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/login.tsx",
-                                                    lineNumber: 360,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/login.tsx",
-                                            lineNumber: 358,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex items-start gap-2 rounded-lg border border-[var(--border-color)] bg-[var(--bg-tertiary)] px-3 py-2.5 transition-colors hover:bg-[var(--bg-secondary)]",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded bg-gradient-to-br from-[#10b981]/20 to-[#10b981]/5 text-[10px] font-bold text-[#10b981]",
-                                                    children: "T2"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/src/components/login.tsx",
-                                                    lineNumber: 371,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "text-xs text-[var(--text-secondary)]",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "font-medium text-[var(--text-primary)]",
-                                                            children: "Tenant 2"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/login.tsx",
-                                                            lineNumber: 373,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "mt-0.5 flex items-center gap-1.5",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
-                                                                    className: "rounded bg-[var(--accent-light)] px-1.5 py-0.5 text-[10px] font-mono text-[#10b981]",
-                                                                    children: "admin"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/login.tsx",
-                                                                    lineNumber: 375,
-                                                                    columnNumber: 21
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "text-[var(--text-muted)]",
-                                                                    children: "/"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/login.tsx",
-                                                                    lineNumber: 376,
-                                                                    columnNumber: 21
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("code", {
-                                                                    className: "rounded bg-[var(--accent-light)] px-1.5 py-0.5 text-[10px] font-mono text-[#10b981]",
-                                                                    children: "admin12345"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/src/components/login.tsx",
-                                                                    lineNumber: 377,
-                                                                    columnNumber: 21
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/src/components/login.tsx",
-                                                            lineNumber: 374,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "mt-0.5 text-[10px] text-[var(--text-muted)]",
-                                                            children: "ID: koperasi-sejahtera"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/login.tsx",
-                                                            lineNumber: 379,
-                                                            columnNumber: 19
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/login.tsx",
-                                                    lineNumber: 372,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/src/components/login.tsx",
-                                            lineNumber: 370,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/components/login.tsx",
-                                    lineNumber: 346,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/components/login.tsx",
-                            lineNumber: 341,
                             columnNumber: 11
                         }, this)
                     ]
@@ -4857,7 +4598,7 @@ function CentralDashboard() {
                                         className: "h-4 w-4"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                        lineNumber: 220,
+                                        lineNumber: 219,
                                         columnNumber: 15
                                     }, this),
                                     tab.label,
@@ -4871,7 +4612,7 @@ function CentralDashboard() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                        lineNumber: 223,
+                                        lineNumber: 222,
                                         columnNumber: 17
                                     }, this)
                                 ]
@@ -4971,7 +4712,7 @@ function CentralDashboard() {
                                                                 children: stat.label
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                lineNumber: 259,
+                                                                lineNumber: 258,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4979,13 +4720,13 @@ function CentralDashboard() {
                                                                 children: stat.value
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                lineNumber: 260,
+                                                                lineNumber: 259,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                        lineNumber: 258,
+                                                        lineNumber: 257,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4994,28 +4735,28 @@ function CentralDashboard() {
                                                             className: `h-5 w-5 sm:h-6 sm:w-6 ${stat.iconColor}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 263,
+                                                            lineNumber: 262,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                        lineNumber: 262,
+                                                        lineNumber: 261,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                lineNumber: 257,
+                                                lineNumber: 256,
                                                 columnNumber: 21
                                             }, this)
                                         }, stat.label, false, {
                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                            lineNumber: 250,
+                                            lineNumber: 249,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                    lineNumber: 243,
+                                    lineNumber: 242,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5043,7 +4784,7 @@ function CentralDashboard() {
                                                             className: "h-4 w-4 text-[#10b981]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 280,
+                                                            lineNumber: 279,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5051,13 +4792,13 @@ function CentralDashboard() {
                                                             children: "Status Tenant"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 281,
+                                                            lineNumber: 280,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 279,
+                                                    lineNumber: 278,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5093,20 +4834,20 @@ function CentralDashboard() {
                                                                                     fill: "#10b981"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                    lineNumber: 300,
+                                                                                    lineNumber: 299,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Cell$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Cell"], {
                                                                                     fill: "#ef4444"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                    lineNumber: 301,
+                                                                                    lineNumber: 300,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 287,
+                                                                            lineNumber: 286,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Tooltip$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Tooltip"], {
@@ -5119,23 +4860,23 @@ function CentralDashboard() {
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 303,
+                                                                            lineNumber: 302,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 286,
+                                                                    lineNumber: 285,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                lineNumber: 285,
+                                                                lineNumber: 284,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 284,
+                                                            lineNumber: 283,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5148,7 +4889,7 @@ function CentralDashboard() {
                                                                             className: "h-3 w-3 rounded-full bg-[#10b981]"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 317,
+                                                                            lineNumber: 316,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5156,7 +4897,7 @@ function CentralDashboard() {
                                                                             children: "Aktif"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 318,
+                                                                            lineNumber: 317,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5164,13 +4905,13 @@ function CentralDashboard() {
                                                                             children: h.activeCount
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 319,
+                                                                            lineNumber: 318,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 316,
+                                                                    lineNumber: 315,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5180,7 +4921,7 @@ function CentralDashboard() {
                                                                             className: "h-3 w-3 rounded-full bg-[#ef4444]"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 322,
+                                                                            lineNumber: 321,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5188,7 +4929,7 @@ function CentralDashboard() {
                                                                             children: "Nonaktif"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 323,
+                                                                            lineNumber: 322,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5196,13 +4937,13 @@ function CentralDashboard() {
                                                                             children: h.inactiveCount
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 324,
+                                                                            lineNumber: 323,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 321,
+                                                                    lineNumber: 320,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 h.tenants.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5213,7 +4954,7 @@ function CentralDashboard() {
                                                                             children: "Rasio Aktif"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 328,
+                                                                            lineNumber: 327,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5224,31 +4965,31 @@ function CentralDashboard() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 329,
+                                                                            lineNumber: 328,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 327,
+                                                                    lineNumber: 326,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 315,
+                                                            lineNumber: 314,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 283,
+                                                    lineNumber: 282,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                            lineNumber: 273,
+                                            lineNumber: 272,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -5273,7 +5014,7 @@ function CentralDashboard() {
                                                             className: "h-4 w-4 text-[#10b981]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 346,
+                                                            lineNumber: 345,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5281,13 +5022,13 @@ function CentralDashboard() {
                                                             children: "Ringkasan Tenant"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 347,
+                                                            lineNumber: 346,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 345,
+                                                    lineNumber: 344,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5302,12 +5043,12 @@ function CentralDashboard() {
                                                                         className: "h-4 w-4 text-cyan-400"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 352,
+                                                                        lineNumber: 351,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 351,
+                                                                    lineNumber: 350,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5318,7 +5059,7 @@ function CentralDashboard() {
                                                                             children: "Total Pengguna Semua Tenant"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 355,
+                                                                            lineNumber: 354,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5329,19 +5070,19 @@ function CentralDashboard() {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 356,
+                                                                            lineNumber: 355,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 354,
+                                                                    lineNumber: 353,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 350,
+                                                            lineNumber: 349,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5353,12 +5094,12 @@ function CentralDashboard() {
                                                                         className: "h-4 w-4 text-[#10b981]"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 361,
+                                                                        lineNumber: 360,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 360,
+                                                                    lineNumber: 359,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5369,7 +5110,7 @@ function CentralDashboard() {
                                                                             children: "Tenant Terbaru"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 364,
+                                                                            lineNumber: 363,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5379,19 +5120,19 @@ function CentralDashboard() {
                                                                             ].sort((a, b)=>new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime())[0]?.namaPerusahaan : '-'
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 365,
+                                                                            lineNumber: 364,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 363,
+                                                                    lineNumber: 362,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 359,
+                                                            lineNumber: 358,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5403,12 +5144,12 @@ function CentralDashboard() {
                                                                         className: "h-4 w-4 text-amber-400"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 374,
+                                                                        lineNumber: 373,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 373,
+                                                                    lineNumber: 372,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5419,7 +5160,7 @@ function CentralDashboard() {
                                                                             children: "Paling Aktif (Terakhir Online)"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 377,
+                                                                            lineNumber: 376,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5429,37 +5170,37 @@ function CentralDashboard() {
                                                                             ].filter((t)=>t.lastSeenAt).sort((a, b)=>new Date(b.lastSeenAt).getTime() - new Date(a.lastSeenAt).getTime())[0]?.namaPerusahaan : 'Belum ada aktivitas'
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 378,
+                                                                            lineNumber: 377,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 376,
+                                                                    lineNumber: 375,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 372,
+                                                            lineNumber: 371,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 349,
+                                                    lineNumber: 348,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                            lineNumber: 339,
+                                            lineNumber: 338,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                    lineNumber: 271,
+                                    lineNumber: 270,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -5484,7 +5225,7 @@ function CentralDashboard() {
                                                     className: "h-4 w-4 text-[#10b981]"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 397,
+                                                    lineNumber: 396,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5492,13 +5233,13 @@ function CentralDashboard() {
                                                     children: "Statistik Sistem"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 398,
+                                                    lineNumber: 397,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                            lineNumber: 396,
+                                            lineNumber: 395,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5544,12 +5285,12 @@ function CentralDashboard() {
                                                                         className: `h-3.5 w-3.5 ${item.color}`
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 410,
+                                                                        lineNumber: 409,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 409,
+                                                                    lineNumber: 408,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5557,13 +5298,13 @@ function CentralDashboard() {
                                                                     children: item.label
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 412,
+                                                                    lineNumber: 411,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 408,
+                                                            lineNumber: 407,
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5571,24 +5312,24 @@ function CentralDashboard() {
                                                             children: item.value
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 414,
+                                                            lineNumber: 413,
                                                             columnNumber: 23
                                                         }, this)
                                                     ]
                                                 }, item.label, true, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 407,
+                                                    lineNumber: 406,
                                                     columnNumber: 21
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                            lineNumber: 400,
+                                            lineNumber: 399,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                    lineNumber: 390,
+                                    lineNumber: 389,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5616,7 +5357,7 @@ function CentralDashboard() {
                                                             className: "h-4 w-4 text-[#10b981]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 430,
+                                                            lineNumber: 429,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5624,13 +5365,13 @@ function CentralDashboard() {
                                                             children: "Perbandingan Pengguna per Tenant"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 431,
+                                                            lineNumber: 430,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 429,
+                                                    lineNumber: 428,
                                                     columnNumber: 19
                                                 }, this),
                                                 h.barChartData.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$ResponsiveContainer$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ResponsiveContainer"], {
@@ -5652,7 +5393,7 @@ function CentralDashboard() {
                                                                 horizontal: false
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                lineNumber: 436,
+                                                                lineNumber: 435,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$XAxis$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["XAxis"], {
@@ -5666,7 +5407,7 @@ function CentralDashboard() {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                lineNumber: 437,
+                                                                lineNumber: 436,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$YAxis$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["YAxis"], {
@@ -5682,7 +5423,7 @@ function CentralDashboard() {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                lineNumber: 438,
+                                                                lineNumber: 437,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Tooltip$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Tooltip"], {
@@ -5695,7 +5436,7 @@ function CentralDashboard() {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                lineNumber: 439,
+                                                                lineNumber: 438,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Bar$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Bar"], {
@@ -5709,7 +5450,7 @@ function CentralDashboard() {
                                                                 ]
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                lineNumber: 448,
+                                                                lineNumber: 447,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("defs", {
@@ -5726,7 +5467,7 @@ function CentralDashboard() {
                                                                             stopOpacity: 0.8
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 451,
+                                                                            lineNumber: 450,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("stop", {
@@ -5735,42 +5476,42 @@ function CentralDashboard() {
                                                                             stopOpacity: 0.6
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 452,
+                                                                            lineNumber: 451,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 450,
+                                                                    lineNumber: 449,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                lineNumber: 449,
+                                                                lineNumber: 448,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                        lineNumber: 435,
+                                                        lineNumber: 434,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 434,
+                                                    lineNumber: 433,
                                                     columnNumber: 21
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "flex items-center justify-center h-[220px] text-sm text-[var(--text-secondary)]",
                                                     children: "Belum ada data tenant"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 458,
+                                                    lineNumber: 457,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                            lineNumber: 423,
+                                            lineNumber: 422,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -5795,7 +5536,7 @@ function CentralDashboard() {
                                                             className: "h-4 w-4 text-[#10b981]"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 472,
+                                                            lineNumber: 471,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5803,13 +5544,13 @@ function CentralDashboard() {
                                                             children: "Aktivitas Terbaru"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 473,
+                                                            lineNumber: 472,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 471,
+                                                    lineNumber: 470,
                                                     columnNumber: 19
                                                 }, this),
                                                 h.activityTimeline.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5826,25 +5567,25 @@ function CentralDashboard() {
                                                                                 className: "h-2.5 w-2.5 rounded-full bg-[#10b981]"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                lineNumber: 481,
+                                                                                lineNumber: 480,
                                                                                 columnNumber: 31
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 480,
+                                                                            lineNumber: 479,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         idx < h.activityTimeline.length - 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "mt-1 h-6 w-px bg-[var(--border-color)]"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 484,
+                                                                            lineNumber: 483,
                                                                             columnNumber: 31
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 479,
+                                                                    lineNumber: 478,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5855,7 +5596,7 @@ function CentralDashboard() {
                                                                             children: item.tenantName
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 488,
+                                                                            lineNumber: 487,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5863,13 +5604,13 @@ function CentralDashboard() {
                                                                             children: item.action
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 489,
+                                                                            lineNumber: 488,
                                                                             columnNumber: 29
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 487,
+                                                                    lineNumber: 486,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5887,37 +5628,37 @@ function CentralDashboard() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 491,
+                                                                    lineNumber: 490,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, item.id, true, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 478,
+                                                            lineNumber: 477,
                                                             columnNumber: 25
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 476,
+                                                    lineNumber: 475,
                                                     columnNumber: 21
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "flex items-center justify-center h-[220px] text-sm text-[var(--text-secondary)]",
                                                     children: "Belum ada aktivitas"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 499,
+                                                    lineNumber: 498,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                            lineNumber: 465,
+                                            lineNumber: 464,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                    lineNumber: 421,
+                                    lineNumber: 420,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -5943,7 +5684,7 @@ function CentralDashboard() {
                                                     children: "Daftar Tenant"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 514,
+                                                    lineNumber: 513,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5956,7 +5697,7 @@ function CentralDashboard() {
                                                                     className: "absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-[var(--text-secondary)]"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 517,
+                                                                    lineNumber: 516,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -5967,7 +5708,7 @@ function CentralDashboard() {
                                                                     className: "w-full rounded-lg border border-[var(--border-color)] bg-[var(--bg-tertiary)] py-2 pl-9 pr-8 text-sm text-[var(--text-primary)] placeholder-[var(--text-muted)] outline-none focus:border-[#10b981]/50 sm:w-64"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 518,
+                                                                    lineNumber: 517,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 h.searchQuery && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -5977,18 +5718,18 @@ function CentralDashboard() {
                                                                         className: "h-3 w-3"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 530,
+                                                                        lineNumber: 529,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 526,
+                                                                    lineNumber: 525,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 516,
+                                                            lineNumber: 515,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -5998,12 +5739,12 @@ function CentralDashboard() {
                                                                 className: `h-4 w-4 ${h.isLoading ? 'animate-spin' : ''}`
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                lineNumber: 538,
+                                                                lineNumber: 537,
                                                                 columnNumber: 23
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 534,
+                                                            lineNumber: 533,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -6014,7 +5755,7 @@ function CentralDashboard() {
                                                                     className: "h-4 w-4"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 544,
+                                                                    lineNumber: 543,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6022,25 +5763,25 @@ function CentralDashboard() {
                                                                     children: "Tambah Tenant"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 545,
+                                                                    lineNumber: 544,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 540,
+                                                            lineNumber: 539,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 515,
+                                                    lineNumber: 514,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                            lineNumber: 513,
+                                            lineNumber: 512,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6053,12 +5794,12 @@ function CentralDashboard() {
                                                         className: "h-8 w-8 animate-spin text-[#10b981]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                        lineNumber: 554,
+                                                        lineNumber: 553,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 553,
+                                                    lineNumber: 552,
                                                     columnNumber: 23
                                                 }, this) : h.filteredTenants.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "py-20 text-center",
@@ -6067,7 +5808,7 @@ function CentralDashboard() {
                                                             className: "mx-auto mb-4 h-12 w-12 text-[var(--text-secondary)]/30"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 558,
+                                                            lineNumber: 557,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6075,7 +5816,7 @@ function CentralDashboard() {
                                                             children: "Belum ada tenant terdaftar"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 559,
+                                                            lineNumber: 558,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -6084,13 +5825,13 @@ function CentralDashboard() {
                                                             children: "Tambah Tenant Pertama"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 560,
+                                                            lineNumber: 559,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 557,
+                                                    lineNumber: 556,
                                                     columnNumber: 23
                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
                                                     className: "w-full",
@@ -6104,7 +5845,7 @@ function CentralDashboard() {
                                                                         children: "ID"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 571,
+                                                                        lineNumber: 570,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -6112,7 +5853,7 @@ function CentralDashboard() {
                                                                         children: "Nama Perusahaan"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 572,
+                                                                        lineNumber: 571,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -6120,7 +5861,7 @@ function CentralDashboard() {
                                                                         children: "Email"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 573,
+                                                                        lineNumber: 572,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -6128,7 +5869,7 @@ function CentralDashboard() {
                                                                         children: "Domain"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 574,
+                                                                        lineNumber: 573,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -6136,7 +5877,7 @@ function CentralDashboard() {
                                                                         children: "Status"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 575,
+                                                                        lineNumber: 574,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -6144,7 +5885,7 @@ function CentralDashboard() {
                                                                         children: "Terakhir Aktif"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 576,
+                                                                        lineNumber: 575,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -6152,18 +5893,18 @@ function CentralDashboard() {
                                                                         children: "Aksi"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 577,
+                                                                        lineNumber: 576,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                lineNumber: 570,
+                                                                lineNumber: 569,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 569,
+                                                            lineNumber: 568,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -6178,12 +5919,12 @@ function CentralDashboard() {
                                                                                 children: tenant.tenantId
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                lineNumber: 594,
+                                                                                lineNumber: 591,
                                                                                 columnNumber: 33
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 593,
+                                                                            lineNumber: 590,
                                                                             columnNumber: 31
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -6197,7 +5938,7 @@ function CentralDashboard() {
                                                                                             children: tenant.namaPerusahaan
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                            lineNumber: 600,
+                                                                                            lineNumber: 597,
                                                                                             columnNumber: 35
                                                                                         }, this),
                                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6207,20 +5948,20 @@ function CentralDashboard() {
                                                                                                     className: "h-2.5 w-2.5"
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                                    lineNumber: 602,
+                                                                                                    lineNumber: 599,
                                                                                                     columnNumber: 37
                                                                                                 }, this),
                                                                                                 tenant.userCount
                                                                                             ]
                                                                                         }, void 0, true, {
                                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                            lineNumber: 601,
+                                                                                            lineNumber: 598,
                                                                                             columnNumber: 35
                                                                                         }, this)
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                    lineNumber: 599,
+                                                                                    lineNumber: 596,
                                                                                     columnNumber: 33
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6231,13 +5972,13 @@ function CentralDashboard() {
                                                                                     ]
                                                                                 }, void 0, true, {
                                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                    lineNumber: 606,
+                                                                                    lineNumber: 603,
                                                                                     columnNumber: 33
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 598,
+                                                                            lineNumber: 595,
                                                                             columnNumber: 31
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -6245,7 +5986,7 @@ function CentralDashboard() {
                                                                             children: tenant.email || '-'
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 610,
+                                                                            lineNumber: 607,
                                                                             columnNumber: 31
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -6253,7 +5994,7 @@ function CentralDashboard() {
                                                                             children: tenant.domain || '-'
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 613,
+                                                                            lineNumber: 610,
                                                                             columnNumber: 31
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -6265,14 +6006,14 @@ function CentralDashboard() {
                                                                                         className: "h-1.5 w-1.5 rounded-full bg-[#10b981] animate-health-green"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                        lineNumber: 619,
+                                                                                        lineNumber: 616,
                                                                                         columnNumber: 37
                                                                                     }, this),
                                                                                     "Aktif"
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                lineNumber: 618,
+                                                                                lineNumber: 615,
                                                                                 columnNumber: 35
                                                                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                 className: "inline-flex items-center gap-1.5 rounded-full bg-red-500/10 px-2.5 py-1 text-xs font-medium text-red-400",
@@ -6281,19 +6022,19 @@ function CentralDashboard() {
                                                                                         className: "h-1.5 w-1.5 rounded-full bg-red-400"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                        lineNumber: 624,
+                                                                                        lineNumber: 621,
                                                                                         columnNumber: 37
                                                                                     }, this),
                                                                                     "Nonaktif"
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                lineNumber: 623,
+                                                                                lineNumber: 620,
                                                                                 columnNumber: 35
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 616,
+                                                                            lineNumber: 613,
                                                                             columnNumber: 31
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -6301,7 +6042,7 @@ function CentralDashboard() {
                                                                             children: h.formatDateTime(tenant.lastSeenAt)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 629,
+                                                                            lineNumber: 626,
                                                                             columnNumber: 31
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -6318,18 +6059,18 @@ function CentralDashboard() {
                                                                                             className: "h-5 w-5 text-[#10b981]"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                            lineNumber: 640,
+                                                                                            lineNumber: 637,
                                                                                             columnNumber: 39
                                                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$toggle$2d$left$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ToggleLeft$3e$__["ToggleLeft"], {
                                                                                             className: "h-5 w-5 text-[#f59e0b]"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                            lineNumber: 642,
+                                                                                            lineNumber: 639,
                                                                                             columnNumber: 39
                                                                                         }, this)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                        lineNumber: 634,
+                                                                                        lineNumber: 631,
                                                                                         columnNumber: 35
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -6340,12 +6081,12 @@ function CentralDashboard() {
                                                                                             className: "h-4 w-4"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                            lineNumber: 650,
+                                                                                            lineNumber: 647,
                                                                                             columnNumber: 37
                                                                                         }, this)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                        lineNumber: 645,
+                                                                                        lineNumber: 642,
                                                                                         columnNumber: 35
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -6356,62 +6097,62 @@ function CentralDashboard() {
                                                                                             className: "h-4 w-4"
                                                                                         }, void 0, false, {
                                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                            lineNumber: 657,
+                                                                                            lineNumber: 654,
                                                                                             columnNumber: 37
                                                                                         }, this)
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                        lineNumber: 652,
+                                                                                        lineNumber: 649,
                                                                                         columnNumber: 35
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                lineNumber: 633,
+                                                                                lineNumber: 630,
                                                                                 columnNumber: 33
                                                                             }, this)
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 632,
+                                                                            lineNumber: 629,
                                                                             columnNumber: 31
                                                                         }, this)
                                                                     ]
                                                                 }, tenant.id, true, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 582,
+                                                                    lineNumber: 581,
                                                                     columnNumber: 29
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 580,
+                                                            lineNumber: 579,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 568,
+                                                    lineNumber: 567,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                lineNumber: 551,
+                                                lineNumber: 550,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                            lineNumber: 550,
+                                            lineNumber: 549,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                    lineNumber: 507,
+                                    lineNumber: 506,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, "tenants", true, {
                             fileName: "[project]/src/components/central-dashboard.tsx",
-                            lineNumber: 235,
+                            lineNumber: 234,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].div, {
                             initial: {
@@ -6440,7 +6181,7 @@ function CentralDashboard() {
                                                 children: "Daftar Pengguna Central"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                lineNumber: 681,
+                                                lineNumber: 678,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6453,12 +6194,12 @@ function CentralDashboard() {
                                                             className: `h-4 w-4 ${h.usersLoading ? 'animate-spin' : ''}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 687,
+                                                            lineNumber: 684,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                        lineNumber: 683,
+                                                        lineNumber: 680,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -6472,32 +6213,32 @@ function CentralDashboard() {
                                                                 className: "h-4 w-4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                lineNumber: 693,
+                                                                lineNumber: 690,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                 children: "Tambah Pengguna"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                lineNumber: 694,
+                                                                lineNumber: 691,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                        lineNumber: 689,
+                                                        lineNumber: 686,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                lineNumber: 682,
+                                                lineNumber: 679,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                        lineNumber: 680,
+                                        lineNumber: 677,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6510,12 +6251,12 @@ function CentralDashboard() {
                                                     className: "h-8 w-8 animate-spin text-[#10b981]"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                    lineNumber: 703,
+                                                    lineNumber: 700,
                                                     columnNumber: 25
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                lineNumber: 702,
+                                                lineNumber: 699,
                                                 columnNumber: 23
                                             }, this) : h.centralUsers.length === 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "py-20 text-center",
@@ -6524,7 +6265,7 @@ function CentralDashboard() {
                                                         className: "mx-auto mb-4 h-12 w-12 text-[var(--text-secondary)]/30"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                        lineNumber: 707,
+                                                        lineNumber: 704,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6532,13 +6273,13 @@ function CentralDashboard() {
                                                         children: "Belum ada pengguna central"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                        lineNumber: 708,
+                                                        lineNumber: 705,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                lineNumber: 706,
+                                                lineNumber: 703,
                                                 columnNumber: 23
                                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
                                                 className: "w-full",
@@ -6552,7 +6293,7 @@ function CentralDashboard() {
                                                                     children: "Username"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 714,
+                                                                    lineNumber: 711,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -6560,7 +6301,7 @@ function CentralDashboard() {
                                                                     children: "Role"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 715,
+                                                                    lineNumber: 712,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -6568,7 +6309,7 @@ function CentralDashboard() {
                                                                     children: "Jabatan"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 716,
+                                                                    lineNumber: 713,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -6576,7 +6317,7 @@ function CentralDashboard() {
                                                                     children: "Dibuat"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 717,
+                                                                    lineNumber: 714,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -6584,18 +6325,18 @@ function CentralDashboard() {
                                                                     children: "Aksi"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                    lineNumber: 718,
+                                                                    lineNumber: 715,
                                                                     columnNumber: 29
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                            lineNumber: 713,
+                                                            lineNumber: 710,
                                                             columnNumber: 27
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                        lineNumber: 712,
+                                                        lineNumber: 709,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -6615,12 +6356,12 @@ function CentralDashboard() {
                                                                                         className: "h-4 w-4 text-[#10b981]"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                        lineNumber: 732,
+                                                                                        lineNumber: 729,
                                                                                         columnNumber: 39
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                    lineNumber: 731,
+                                                                                    lineNumber: 728,
                                                                                     columnNumber: 37
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6632,7 +6373,7 @@ function CentralDashboard() {
                                                                                                 children: cu.username
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                                lineNumber: 736,
+                                                                                                lineNumber: 733,
                                                                                                 columnNumber: 41
                                                                                             }, this),
                                                                                             isCurrentUser && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6640,29 +6381,29 @@ function CentralDashboard() {
                                                                                                 children: "Anda"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                                lineNumber: 738,
+                                                                                                lineNumber: 735,
                                                                                                 columnNumber: 43
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                        lineNumber: 735,
+                                                                                        lineNumber: 732,
                                                                                         columnNumber: 39
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                    lineNumber: 734,
+                                                                                    lineNumber: 731,
                                                                                     columnNumber: 37
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 730,
+                                                                            lineNumber: 727,
                                                                             columnNumber: 35
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 729,
+                                                                        lineNumber: 726,
                                                                         columnNumber: 33
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -6674,25 +6415,25 @@ function CentralDashboard() {
                                                                                     className: "h-3 w-3"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                    lineNumber: 753,
+                                                                                    lineNumber: 749,
                                                                                     columnNumber: 39
                                                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
                                                                                     className: "h-3 w-3"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                    lineNumber: 755,
+                                                                                    lineNumber: 751,
                                                                                     columnNumber: 39
                                                                                 }, this),
                                                                                 cu.role
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 747,
+                                                                            lineNumber: 744,
                                                                             columnNumber: 35
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 746,
+                                                                        lineNumber: 743,
                                                                         columnNumber: 33
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -6700,7 +6441,7 @@ function CentralDashboard() {
                                                                         children: cu.jabatan || '-'
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 760,
+                                                                        lineNumber: 756,
                                                                         columnNumber: 33
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -6708,7 +6449,7 @@ function CentralDashboard() {
                                                                         children: h.formatDate(cu.createdAt)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 763,
+                                                                        lineNumber: 759,
                                                                         columnNumber: 33
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -6727,12 +6468,12 @@ function CentralDashboard() {
                                                                                         className: "h-4 w-4"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                        lineNumber: 773,
+                                                                                        lineNumber: 769,
                                                                                         columnNumber: 39
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                    lineNumber: 768,
+                                                                                    lineNumber: 764,
                                                                                     columnNumber: 37
                                                                                 }, this),
                                                                                 !isCurrentUser && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -6743,67 +6484,67 @@ function CentralDashboard() {
                                                                                         className: "h-4 w-4"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                        lineNumber: 781,
+                                                                                        lineNumber: 777,
                                                                                         columnNumber: 41
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                                    lineNumber: 776,
+                                                                                    lineNumber: 772,
                                                                                     columnNumber: 39
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                            lineNumber: 767,
+                                                                            lineNumber: 763,
                                                                             columnNumber: 35
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                        lineNumber: 766,
+                                                                        lineNumber: 762,
                                                                         columnNumber: 33
                                                                     }, this)
                                                                 ]
                                                             }, cu.id, true, {
                                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                                lineNumber: 725,
+                                                                lineNumber: 722,
                                                                 columnNumber: 31
                                                             }, this);
                                                         })
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                                        lineNumber: 721,
+                                                        lineNumber: 718,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                lineNumber: 711,
+                                                lineNumber: 708,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                            lineNumber: 700,
+                                            lineNumber: 697,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                        lineNumber: 699,
+                                        lineNumber: 696,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                lineNumber: 679,
+                                lineNumber: 676,
                                 columnNumber: 15
                             }, this)
                         }, "users", false, {
                             fileName: "[project]/src/components/central-dashboard.tsx",
-                            lineNumber: 671,
+                            lineNumber: 668,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/central-dashboard.tsx",
-                        lineNumber: 233,
+                        lineNumber: 232,
                         columnNumber: 9
                     }, this)
                 ]
@@ -6841,12 +6582,12 @@ function CentralDashboard() {
                     onDeleteTenantUser: h.setDeletingTenantUser
                 }, void 0, false, {
                     fileName: "[project]/src/components/central-dashboard.tsx",
-                    lineNumber: 803,
+                    lineNumber: 799,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/central-dashboard.tsx",
-                lineNumber: 801,
+                lineNumber: 797,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -6864,12 +6605,12 @@ function CentralDashboard() {
                     }
                 }, void 0, false, {
                     fileName: "[project]/src/components/central-dashboard.tsx",
-                    lineNumber: 826,
+                    lineNumber: 822,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/central-dashboard.tsx",
-                lineNumber: 824,
+                lineNumber: 820,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -6879,12 +6620,12 @@ function CentralDashboard() {
                     onConfirm: h.handleDeleteTenant
                 }, void 0, false, {
                     fileName: "[project]/src/components/central-dashboard.tsx",
-                    lineNumber: 842,
+                    lineNumber: 838,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/central-dashboard.tsx",
-                lineNumber: 840,
+                lineNumber: 836,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -6902,12 +6643,12 @@ function CentralDashboard() {
                     }
                 }, void 0, false, {
                     fileName: "[project]/src/components/central-dashboard.tsx",
-                    lineNumber: 853,
+                    lineNumber: 849,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/central-dashboard.tsx",
-                lineNumber: 851,
+                lineNumber: 847,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -6917,12 +6658,12 @@ function CentralDashboard() {
                     onConfirm: h.handleDeleteUser
                 }, void 0, false, {
                     fileName: "[project]/src/components/central-dashboard.tsx",
-                    lineNumber: 869,
+                    lineNumber: 865,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/central-dashboard.tsx",
-                lineNumber: 867,
+                lineNumber: 863,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -6942,12 +6683,12 @@ function CentralDashboard() {
                     }
                 }, void 0, false, {
                     fileName: "[project]/src/components/central-dashboard.tsx",
-                    lineNumber: 880,
+                    lineNumber: 876,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/central-dashboard.tsx",
-                lineNumber: 878,
+                lineNumber: 874,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -6957,12 +6698,12 @@ function CentralDashboard() {
                     onConfirm: h.handleDeleteTenantUser
                 }, void 0, false, {
                     fileName: "[project]/src/components/central-dashboard.tsx",
-                    lineNumber: 898,
+                    lineNumber: 894,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/central-dashboard.tsx",
-                lineNumber: 896,
+                lineNumber: 892,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$change$2d$password$2d$modal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ChangePasswordModal"], {
@@ -6971,7 +6712,7 @@ function CentralDashboard() {
                 apiEndpoint: "/api/central/change-password"
             }, void 0, false, {
                 fileName: "[project]/src/components/central-dashboard.tsx",
-                lineNumber: 907,
+                lineNumber: 903,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -6990,12 +6731,12 @@ function CentralDashboard() {
                                             className: "h-3 w-3 text-white"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/central-dashboard.tsx",
-                                            lineNumber: 919,
+                                            lineNumber: 915,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                        lineNumber: 918,
+                                        lineNumber: 914,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7007,43 +6748,43 @@ function CentralDashboard() {
                                                 children: "Juara"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                                lineNumber: 922,
+                                                lineNumber: 918,
                                                 columnNumber: 23
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/central-dashboard.tsx",
-                                        lineNumber: 921,
+                                        lineNumber: 917,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                lineNumber: 917,
+                                lineNumber: 913,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-xs text-[var(--text-secondary)]",
-                                children: "© 2025 BumdesJuara · Central Admin Panel"
+                                children: "© 2025 BumdesJuara by reinKarnasi· Central Admin Panel"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/central-dashboard.tsx",
-                                lineNumber: 925,
+                                lineNumber: 921,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/central-dashboard.tsx",
-                        lineNumber: 916,
+                        lineNumber: 912,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/central-dashboard.tsx",
-                    lineNumber: 915,
+                    lineNumber: 911,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/central-dashboard.tsx",
-                lineNumber: 914,
+                lineNumber: 910,
                 columnNumber: 7
             }, this)
         ]
@@ -9888,7 +9629,7 @@ function TenantDashboard() {
                                                                 className: "h-4 w-4"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                lineNumber: 321,
+                                                                lineNumber: 320,
                                                                 columnNumber: 25
                                                             }, this),
                                                             item.label,
@@ -9909,7 +9650,7 @@ function TenantDashboard() {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                lineNumber: 324,
+                                                                lineNumber: 323,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
@@ -9969,7 +9710,7 @@ function TenantDashboard() {
                                             children: "BumdesJuara"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 352,
+                                            lineNumber: 351,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -9977,7 +9718,7 @@ function TenantDashboard() {
                                             children: "/"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 353,
+                                            lineNumber: 352,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -9985,18 +9726,18 @@ function TenantDashboard() {
                                             children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$tenant$2d$sidebar$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["sidebarGroups"].flatMap((g)=>g.items).find((i)=>i.id === h.tenantTab)?.label || 'Dashboard'
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 354,
+                                            lineNumber: 353,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, `breadcrumb-${h.tenantTab}`, true, {
                                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                    lineNumber: 344,
+                                    lineNumber: 343,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                lineNumber: 343,
+                                lineNumber: 342,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -10010,7 +9751,7 @@ function TenantDashboard() {
                                         setComingSoonModal: h.setComingSoonModal
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 361,
+                                        lineNumber: 360,
                                         columnNumber: 15
                                     }, this),
                                     h.tenantTab === 'akun' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(AkunView, {
@@ -10028,7 +9769,7 @@ function TenantDashboard() {
                                         onDeleteAkun: (id)=>h.setDeleteConfirm(id)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 370,
+                                        lineNumber: 369,
                                         columnNumber: 15
                                     }, this),
                                     h.tenantTab === 'jurnal' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(JurnalView, {
@@ -10048,7 +9789,7 @@ function TenantDashboard() {
                                         setApprovalFilter: h.setJurnalApprovalFilter
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 386,
+                                        lineNumber: 385,
                                         columnNumber: 15
                                     }, this),
                                     h.tenantTab === 'laporan' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LaporanView, {
@@ -10065,7 +9806,7 @@ function TenantDashboard() {
                                         onApplyDateFilter: h.handleApplyLaporanDateFilter
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 404,
+                                        lineNumber: 403,
                                         columnNumber: 15
                                     }, this),
                                     h.tenantTab === 'buku-besar' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(BukuBesarView, {
@@ -10082,7 +9823,7 @@ function TenantDashboard() {
                                         onApplyDateFilter: h.handleApplyBukuBesarDateFilter
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 419,
+                                        lineNumber: 418,
                                         columnNumber: 15
                                     }, this),
                                     h.tenantTab === 'neraca-saldo' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(NeracaSaldoView, {
@@ -10097,7 +9838,7 @@ function TenantDashboard() {
                                         tenantName: user?.tenantName
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 434,
+                                        lineNumber: 433,
                                         columnNumber: 15
                                     }, this),
                                     h.tenantTab === 'arus-kas' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(ArusKasView, {
@@ -10112,7 +9853,7 @@ function TenantDashboard() {
                                         tenantName: user?.tenantName
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 447,
+                                        lineNumber: 446,
                                         columnNumber: 15
                                     }, this),
                                     h.tenantTab === 'penjualan' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(PenjualanView, {
@@ -10130,7 +9871,7 @@ function TenantDashboard() {
                                         onDelete: h.handleDeletePenjualan
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 460,
+                                        lineNumber: 459,
                                         columnNumber: 15
                                     }, this),
                                     h.tenantTab === 'pembelian' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(PembelianView, {
@@ -10148,7 +9889,7 @@ function TenantDashboard() {
                                         onDelete: h.handleDeletePembelian
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 476,
+                                        lineNumber: 475,
                                         columnNumber: 15
                                     }, this),
                                     h.tenantTab === 'simpanan' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(SimpananView, {
@@ -10164,7 +9905,7 @@ function TenantDashboard() {
                                         onSubmit: h.handleSubmitSimpanan
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 492,
+                                        lineNumber: 491,
                                         columnNumber: 15
                                     }, this),
                                     h.tenantTab === 'pinjaman' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(PinjamanView, {
@@ -10180,7 +9921,7 @@ function TenantDashboard() {
                                         onSubmit: h.handleSubmitPinjaman
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 506,
+                                        lineNumber: 505,
                                         columnNumber: 15
                                     }, this),
                                     h.tenantTab === 'pelanggan' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(PelangganView, {
@@ -10198,7 +9939,7 @@ function TenantDashboard() {
                                         onDelete: h.handleDeletePelanggan
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 520,
+                                        lineNumber: 519,
                                         columnNumber: 15
                                     }, this),
                                     h.tenantTab === 'pemasok' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(PemasokView, {
@@ -10216,7 +9957,7 @@ function TenantDashboard() {
                                         onDelete: h.handleDeletePemasok
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 536,
+                                        lineNumber: 535,
                                         columnNumber: 15
                                     }, this),
                                     h.tenantTab === 'persediaan' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(PersediaanView, {
@@ -10238,7 +9979,7 @@ function TenantDashboard() {
                                         onDelete: h.handleDeletePersediaan
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 552,
+                                        lineNumber: 551,
                                         columnNumber: 15
                                     }, this),
                                     h.tenantTab === 'pengaturan' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(PengaturanView, {
@@ -10271,19 +10012,19 @@ function TenantDashboard() {
                                         tenantName: user?.tenantName
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 572,
+                                        lineNumber: 571,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                lineNumber: 359,
+                                lineNumber: 358,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                        lineNumber: 341,
+                        lineNumber: 340,
                         columnNumber: 9
                     }, this)
                 ]
@@ -10316,7 +10057,7 @@ function TenantDashboard() {
                                     placeholder: "1-1000"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                    lineNumber: 610,
+                                    lineNumber: 609,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$tenant$2f$shared$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DarkInput"], {
@@ -10330,13 +10071,13 @@ function TenantDashboard() {
                                     placeholder: "Nama akun..."
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                    lineNumber: 611,
+                                    lineNumber: 610,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                            lineNumber: 609,
+                            lineNumber: 608,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -10356,7 +10097,7 @@ function TenantDashboard() {
                                             children: "Kas & Bank"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 615,
+                                            lineNumber: 614,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -10365,7 +10106,7 @@ function TenantDashboard() {
                                             children: "Piutang"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 615,
+                                            lineNumber: 614,
                                             columnNumber: 98
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -10374,7 +10115,7 @@ function TenantDashboard() {
                                             children: "Persediaan"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 615,
+                                            lineNumber: 614,
                                             columnNumber: 175
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -10383,7 +10124,7 @@ function TenantDashboard() {
                                             children: "Aset Tetap"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 615,
+                                            lineNumber: 614,
                                             columnNumber: 258
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -10392,7 +10133,7 @@ function TenantDashboard() {
                                             children: "Utang Usaha"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 615,
+                                            lineNumber: 614,
                                             columnNumber: 341
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -10401,7 +10142,7 @@ function TenantDashboard() {
                                             children: "Ekuitas"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 615,
+                                            lineNumber: 614,
                                             columnNumber: 426
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -10410,7 +10151,7 @@ function TenantDashboard() {
                                             children: "Pendapatan"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 615,
+                                            lineNumber: 614,
                                             columnNumber: 503
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -10419,7 +10160,7 @@ function TenantDashboard() {
                                             children: "HPP"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 615,
+                                            lineNumber: 614,
                                             columnNumber: 586
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -10428,13 +10169,13 @@ function TenantDashboard() {
                                             children: "Beban"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 615,
+                                            lineNumber: 614,
                                             columnNumber: 655
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                    lineNumber: 614,
+                                    lineNumber: 613,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$tenant$2f$shared$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DarkSelect"], {
@@ -10451,7 +10192,7 @@ function TenantDashboard() {
                                             children: "Neraca"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 618,
+                                            lineNumber: 617,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -10460,25 +10201,25 @@ function TenantDashboard() {
                                             children: "Laba Rugi"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 618,
+                                            lineNumber: 617,
                                             columnNumber: 90
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                    lineNumber: 617,
+                                    lineNumber: 616,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                            lineNumber: 613,
+                            lineNumber: 612,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$tenant$2f$shared$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DarkInput"], {
                             label: "Saldo Awal (Rp)",
                             type: "number",
-                            value: h.akunForm.saldoAwal || '',
+                            value: h.akunForm.saldoAwal.toString() || '',
                             onChange: (e)=>h.setAkunForm({
                                     ...h.akunForm,
                                     saldoAwal: Number(e.target.value)
@@ -10486,7 +10227,7 @@ function TenantDashboard() {
                             placeholder: "0"
                         }, void 0, false, {
                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                            lineNumber: 621,
+                            lineNumber: 620,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -10498,7 +10239,7 @@ function TenantDashboard() {
                                     children: "Batal"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                    lineNumber: 623,
+                                    lineNumber: 622,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -10510,31 +10251,31 @@ function TenantDashboard() {
                                             className: "h-4 w-4 animate-spin"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 624,
+                                            lineNumber: 623,
                                             columnNumber: 255
                                         }, this) : null,
                                         "Simpan"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                    lineNumber: 624,
+                                    lineNumber: 623,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                            lineNumber: 622,
+                            lineNumber: 621,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                    lineNumber: 608,
+                    lineNumber: 607,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                lineNumber: 607,
+                lineNumber: 606,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -10572,12 +10313,12 @@ function TenantDashboard() {
                                     className: "h-7 w-7 text-red-400"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                    lineNumber: 634,
+                                    lineNumber: 633,
                                     columnNumber: 115
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                lineNumber: 634,
+                                lineNumber: 633,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -10585,7 +10326,7 @@ function TenantDashboard() {
                                 children: "Konfirmasi Hapus"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                lineNumber: 635,
+                                lineNumber: 634,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -10593,7 +10334,7 @@ function TenantDashboard() {
                                 children: "Apakah Anda yakin ingin menghapus akun ini? Tindakan ini tidak dapat dibatalkan."
                             }, void 0, false, {
                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                lineNumber: 636,
+                                lineNumber: 635,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -10605,7 +10346,7 @@ function TenantDashboard() {
                                         children: "Batal"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 638,
+                                        lineNumber: 637,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -10616,36 +10357,36 @@ function TenantDashboard() {
                                                 className: "h-4 w-4"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                lineNumber: 639,
+                                                lineNumber: 638,
                                                 columnNumber: 196
                                             }, this),
                                             "Hapus"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 639,
+                                        lineNumber: 638,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                lineNumber: 637,
+                                lineNumber: 636,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                        lineNumber: 633,
+                        lineNumber: 632,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                    lineNumber: 632,
+                    lineNumber: 631,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                lineNumber: 630,
+                lineNumber: 629,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -10683,12 +10424,12 @@ function TenantDashboard() {
                                     className: "h-8 w-8 text-[#10b981]"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                    lineNumber: 664,
+                                    lineNumber: 663,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                lineNumber: 663,
+                                lineNumber: 662,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -10696,7 +10437,7 @@ function TenantDashboard() {
                                 children: "Segera Hadir!"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                lineNumber: 666,
+                                lineNumber: 665,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -10708,14 +10449,14 @@ function TenantDashboard() {
                                         children: h.comingSoonModal
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 670,
+                                        lineNumber: 669,
                                         columnNumber: 23
                                     }, this),
                                     " akan segera hadir. Kami sedang mengembangkan fitur ini untuk pengalaman yang lebih baik."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                lineNumber: 669,
+                                lineNumber: 668,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -10724,23 +10465,23 @@ function TenantDashboard() {
                                 children: "Mengerti"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                lineNumber: 672,
+                                lineNumber: 671,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                        lineNumber: 656,
+                        lineNumber: 655,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                    lineNumber: 649,
+                    lineNumber: 648,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                lineNumber: 647,
+                lineNumber: 646,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["AnimatePresence"], {
@@ -10784,12 +10525,12 @@ function TenantDashboard() {
                                                     className: "h-5 w-5 text-[#10b981]"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                    lineNumber: 704,
+                                                    lineNumber: 703,
                                                     columnNumber: 21
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                lineNumber: 703,
+                                                lineNumber: 702,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -10799,7 +10540,7 @@ function TenantDashboard() {
                                                         children: "Buat Jurnal Baru"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 707,
+                                                        lineNumber: 706,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -10807,19 +10548,19 @@ function TenantDashboard() {
                                                         children: "Masukkan detail jurnal dan entri akun"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 708,
+                                                        lineNumber: 707,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                lineNumber: 706,
+                                                lineNumber: 705,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 702,
+                                        lineNumber: 701,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -10829,18 +10570,18 @@ function TenantDashboard() {
                                             className: "h-4 w-4"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 715,
+                                            lineNumber: 714,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 711,
+                                        lineNumber: 710,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                lineNumber: 701,
+                                lineNumber: 700,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -10856,7 +10597,7 @@ function TenantDashboard() {
                                                         children: "Tanggal"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 724,
+                                                        lineNumber: 723,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -10869,13 +10610,13 @@ function TenantDashboard() {
                                                         className: "w-full rounded-lg border border-[var(--border-color)] bg-[var(--bg-tertiary)] px-3 py-2 text-sm text-[var(--text-primary)] outline-none focus:border-[#10b981]/50 transition-colors"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 725,
+                                                        lineNumber: 724,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                lineNumber: 723,
+                                                lineNumber: 722,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -10885,7 +10626,7 @@ function TenantDashboard() {
                                                         children: "No Bukti"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 733,
+                                                        lineNumber: 732,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -10899,19 +10640,19 @@ function TenantDashboard() {
                                                         className: "w-full rounded-lg border border-[var(--border-color)] bg-[var(--bg-tertiary)] px-3 py-2 text-sm text-[var(--text-primary)] placeholder-[var(--text-muted)] outline-none focus:border-[#10b981]/50 transition-colors"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 734,
+                                                        lineNumber: 733,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                lineNumber: 732,
+                                                lineNumber: 731,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 722,
+                                        lineNumber: 721,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -10924,7 +10665,7 @@ function TenantDashboard() {
                                                         children: "Keterangan"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 747,
+                                                        lineNumber: 746,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -10938,13 +10679,13 @@ function TenantDashboard() {
                                                         className: "w-full rounded-lg border border-[var(--border-color)] bg-[var(--bg-tertiary)] px-3 py-2 text-sm text-[var(--text-primary)] placeholder-[var(--text-muted)] outline-none focus:border-[#10b981]/50 transition-colors"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 748,
+                                                        lineNumber: 747,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                lineNumber: 746,
+                                                lineNumber: 745,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -10954,7 +10695,7 @@ function TenantDashboard() {
                                                         children: "Tipe Jurnal"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 757,
+                                                        lineNumber: 756,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -10971,7 +10712,7 @@ function TenantDashboard() {
                                                                 children: "Umum"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                lineNumber: 763,
+                                                                lineNumber: 762,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -10980,7 +10721,7 @@ function TenantDashboard() {
                                                                 children: "Kas Masuk"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                lineNumber: 764,
+                                                                lineNumber: 763,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -10989,25 +10730,25 @@ function TenantDashboard() {
                                                                 children: "Kas Keluar"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                lineNumber: 765,
+                                                                lineNumber: 764,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 758,
+                                                        lineNumber: 757,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                lineNumber: 756,
+                                                lineNumber: 755,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 745,
+                                        lineNumber: 744,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -11020,7 +10761,7 @@ function TenantDashboard() {
                                                         children: "Detail Jurnal"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 773,
+                                                        lineNumber: 772,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -11031,20 +10772,20 @@ function TenantDashboard() {
                                                                 className: "h-3.5 w-3.5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                lineNumber: 778,
+                                                                lineNumber: 777,
                                                                 columnNumber: 23
                                                             }, this),
                                                             "Tambah Baris"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 774,
+                                                        lineNumber: 773,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                lineNumber: 772,
+                                                lineNumber: 771,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -11057,7 +10798,7 @@ function TenantDashboard() {
                                                                 children: "Akun"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                lineNumber: 786,
+                                                                lineNumber: 785,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -11065,7 +10806,7 @@ function TenantDashboard() {
                                                                 children: "Debit"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                lineNumber: 787,
+                                                                lineNumber: 786,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -11073,25 +10814,25 @@ function TenantDashboard() {
                                                                 children: "Kredit"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                lineNumber: 788,
+                                                                lineNumber: 787,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {}, void 0, false, {
                                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                lineNumber: 789,
+                                                                lineNumber: 788,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 785,
+                                                        lineNumber: 784,
                                                         columnNumber: 21
                                                     }, this),
                                                     h.jurnalDetails.map((detail, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "grid grid-cols-[1fr_120px_120px_36px] gap-2 items-center",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
-                                                                    value: detail.kodeAkun,
+                                                                    value: String(detail.kodeAkun ?? ''),
                                                                     onChange: (e)=>h.handleJurnalDetailChange(index, 'kodeAkun', e.target.value),
                                                                     className: "rounded-lg border border-[var(--border-color)] bg-[var(--bg-tertiary)] px-3 py-2 text-sm text-[var(--text-primary)] outline-none focus:border-[#10b981]/50 transition-colors",
                                                                     children: [
@@ -11101,7 +10842,7 @@ function TenantDashboard() {
                                                                             children: "Pilih akun..."
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                            lineNumber: 799,
+                                                                            lineNumber: 798,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         h.akunList.map((akun)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -11114,13 +10855,13 @@ function TenantDashboard() {
                                                                                 ]
                                                                             }, akun.kodeAkun, true, {
                                                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                                lineNumber: 801,
+                                                                                lineNumber: 800,
                                                                                 columnNumber: 29
                                                                             }, this))
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                    lineNumber: 794,
+                                                                    lineNumber: 793,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -11132,7 +10873,7 @@ function TenantDashboard() {
                                                                     className: "rounded-lg border border-[var(--border-color)] bg-[var(--bg-tertiary)] px-3 py-2 text-sm text-right text-[var(--text-primary)] placeholder-[var(--text-muted)] outline-none focus:border-[#10b981]/50 transition-colors"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                    lineNumber: 806,
+                                                                    lineNumber: 805,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -11144,7 +10885,7 @@ function TenantDashboard() {
                                                                     className: "rounded-lg border border-[var(--border-color)] bg-[var(--bg-tertiary)] px-3 py-2 text-sm text-right text-[var(--text-primary)] placeholder-[var(--text-muted)] outline-none focus:border-[#10b981]/50 transition-colors"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                    lineNumber: 814,
+                                                                    lineNumber: 813,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -11155,30 +10896,30 @@ function TenantDashboard() {
                                                                         className: "h-3.5 w-3.5"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                        lineNumber: 827,
+                                                                        lineNumber: 826,
                                                                         columnNumber: 27
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                    lineNumber: 822,
+                                                                    lineNumber: 821,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, index, true, {
                                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                            lineNumber: 793,
+                                                            lineNumber: 792,
                                                             columnNumber: 23
                                                         }, this))
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                lineNumber: 783,
+                                                lineNumber: 782,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 771,
+                                        lineNumber: 770,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -11191,13 +10932,13 @@ function TenantDashboard() {
                                                         className: "h-5 w-5 text-[#10b981]"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 842,
+                                                        lineNumber: 840,
                                                         columnNumber: 23
                                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$x$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__XCircle$3e$__["XCircle"], {
                                                         className: "h-5 w-5 text-red-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 844,
+                                                        lineNumber: 842,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -11205,13 +10946,13 @@ function TenantDashboard() {
                                                         children: h.isJurnalBalanced ? 'Jurnal Seimbang' : 'Jurnal Belum Seimbang'
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 846,
+                                                        lineNumber: 844,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                lineNumber: 840,
+                                                lineNumber: 838,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -11224,7 +10965,7 @@ function TenantDashboard() {
                                                                 children: "Debit: "
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                lineNumber: 852,
+                                                                lineNumber: 850,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -11232,13 +10973,13 @@ function TenantDashboard() {
                                                                 children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$tenant$2d$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["formatCurrency"])(h.jurnalTotalDebit)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                lineNumber: 853,
+                                                                lineNumber: 851,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 851,
+                                                        lineNumber: 849,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -11248,7 +10989,7 @@ function TenantDashboard() {
                                                                 children: "Kredit: "
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                lineNumber: 856,
+                                                                lineNumber: 854,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -11256,31 +10997,31 @@ function TenantDashboard() {
                                                                 children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$tenant$2d$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["formatCurrency"])(h.jurnalTotalKredit)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                                lineNumber: 857,
+                                                                lineNumber: 855,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                        lineNumber: 855,
+                                                        lineNumber: 853,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                lineNumber: 850,
+                                                lineNumber: 848,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 835,
+                                        lineNumber: 834,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                lineNumber: 720,
+                                lineNumber: 719,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -11292,7 +11033,7 @@ function TenantDashboard() {
                                         children: "Batal"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 865,
+                                        lineNumber: 863,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -11304,36 +11045,36 @@ function TenantDashboard() {
                                                 className: "h-4 w-4 animate-spin"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                lineNumber: 877,
+                                                lineNumber: 875,
                                                 columnNumber: 21
                                             }, this) : null,
                                             "Simpan Jurnal"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 871,
+                                        lineNumber: 869,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                lineNumber: 864,
+                                lineNumber: 862,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                        lineNumber: 693,
+                        lineNumber: 692,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                    lineNumber: 686,
+                    lineNumber: 685,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                lineNumber: 684,
+                lineNumber: 683,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$change$2d$password$2d$modal$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ChangePasswordModal"], {
@@ -11342,7 +11083,7 @@ function TenantDashboard() {
                 apiEndpoint: "/api/tenant/change-password"
             }, void 0, false, {
                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                lineNumber: 888,
+                lineNumber: 886,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$tenant$2f$command$2d$palette$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["CommandPalette"], {
@@ -11361,7 +11102,7 @@ function TenantDashboard() {
                 onAddRecentSearch: addRecentSearch
             }, showCommandPalette ? 'open' : 'closed', false, {
                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                lineNumber: 895,
+                lineNumber: 893,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$tenant$2f$shortcuts$2d$help$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ShortcutsHelp"], {
@@ -11369,7 +11110,7 @@ function TenantDashboard() {
                 onClose: ()=>setShowShortcutsHelp(false)
             }, void 0, false, {
                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                lineNumber: 907,
+                lineNumber: 905,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
@@ -11388,12 +11129,12 @@ function TenantDashboard() {
                                             className: "h-3 w-3 text-white"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                            lineNumber: 918,
+                                            lineNumber: 916,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 917,
+                                        lineNumber: 915,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -11405,46 +11146,46 @@ function TenantDashboard() {
                                                 children: "Juara"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                                lineNumber: 921,
+                                                lineNumber: 919,
                                                 columnNumber: 23
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                        lineNumber: 920,
+                                        lineNumber: 918,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                lineNumber: 916,
+                                lineNumber: 914,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-xs text-[var(--text-secondary)]",
                                 children: [
-                                    "© 2025 BumdesJuara · ",
+                                    "© 2025 BumdesJuara by reinKarnasi · ",
                                     user?.tenantName || 'Dashboard'
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                                lineNumber: 924,
+                                lineNumber: 922,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/tenant-dashboard.tsx",
-                        lineNumber: 915,
+                        lineNumber: 913,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/tenant-dashboard.tsx",
-                    lineNumber: 914,
+                    lineNumber: 912,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/tenant-dashboard.tsx",
-                lineNumber: 913,
+                lineNumber: 911,
                 columnNumber: 7
             }, this)
         ]

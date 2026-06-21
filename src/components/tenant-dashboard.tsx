@@ -313,8 +313,8 @@ export function TenantDashboard() {
                         whileHover={{ scale: 1.01 }}
                         transition={{ duration: 0.15 }}
                         className={`relative flex w-full items-center gap-3 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors duration-150 ${isActive
-                            ? 'bg-gradient-to-r from-[#10b981]/15 to-[#10b981]/5 text-[#10b981] border-l-2 border-[#10b981]'
-                            : 'text-[var(--text-secondary)] hover:bg-[var(--accent-light)] hover:text-[var(--text-primary)] border-l-2 border-transparent'
+                          ? 'bg-gradient-to-r from-[#10b981]/15 to-[#10b981]/5 text-[#10b981] border-l-2 border-[#10b981]'
+                          : 'text-[var(--text-secondary)] hover:bg-[var(--accent-light)] hover:text-[var(--text-primary)] border-l-2 border-transparent'
                           }`}
                       >
                         <Icon className="h-4 w-4" />
@@ -617,7 +617,7 @@ export function TenantDashboard() {
               <option value="Neraca" className="bg-[var(--bg-secondary)]">Neraca</option><option value="Laba Rugi" className="bg-[var(--bg-secondary)]">Laba Rugi</option>
             </DarkSelect>
           </div>
-          <DarkInput label="Saldo Awal (Rp)" type="number" value={h.akunForm.saldoAwal || ''} onChange={(e) => h.setAkunForm({ ...h.akunForm, saldoAwal: Number(e.target.value) })} placeholder="0" />
+          <DarkInput label="Saldo Awal (Rp)" type="number" value={h.akunForm.saldoAwal.toString() || ''} onChange={(e) => h.setAkunForm({ ...h.akunForm, saldoAwal: Number(e.target.value) })} placeholder="0" />
           <div className="flex items-center justify-end gap-3 pt-2">
             <button onClick={() => h.setShowAkunModal(false)} className="rounded-lg border border-[var(--border-color)] px-4 py-2 text-sm text-[var(--text-secondary)] hover:bg-[var(--bg-tertiary)]">Batal</button>
             <button onClick={h.handleSaveAkun} disabled={h.akunFormLoading || !h.akunForm.kodeAkun || !h.akunForm.namaAkun} className="btn-emerald flex items-center gap-2 rounded-lg px-5 py-2 text-sm font-medium disabled:opacity-40">{h.akunFormLoading ? <Loader2 className="h-4 w-4 animate-spin" /> : null}Simpan</button>
@@ -791,7 +791,7 @@ export function TenantDashboard() {
                     {h.jurnalDetails.map((detail, index) => (
                       <div key={index} className="grid grid-cols-[1fr_120px_120px_36px] gap-2 items-center">
                         <select
-                          value={detail.kodeAkun}
+                          value={String(detail.kodeAkun ?? '')}
                           onChange={(e) => h.handleJurnalDetailChange(index, 'kodeAkun', e.target.value)}
                           className="rounded-lg border border-[var(--border-color)] bg-[var(--bg-tertiary)] px-3 py-2 text-sm text-[var(--text-primary)] outline-none focus:border-[#10b981]/50 transition-colors"
                         >
@@ -832,8 +832,8 @@ export function TenantDashboard() {
 
                 {/* Balance Indicator */}
                 <div className={`flex items-center justify-between rounded-lg border p-4 ${h.isJurnalBalanced
-                    ? 'border-[#10b981]/20 bg-[#10b981]/5'
-                    : 'border-red-500/20 bg-red-500/5'
+                  ? 'border-[#10b981]/20 bg-[#10b981]/5'
+                  : 'border-red-500/20 bg-red-500/5'
                   }`}>
                   <div className="flex items-center gap-2">
                     {h.isJurnalBalanced ? (

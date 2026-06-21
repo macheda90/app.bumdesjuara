@@ -240,7 +240,7 @@ export function Landing({ onNavigate }: LandingProps) {
               </button>
               <div className="flex items-center gap-2 text-sm text-(--text-secondary)">
                 <CheckCircle2 className="h-4 w-4 text-emerald" />
-                Gratis untuk BUMDes
+                Request Demo
               </div>
             </motion.div>
           </div>
